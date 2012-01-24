@@ -1,0 +1,80 @@
+Structure
+
+Home
+	<header>
+		- <nav>
+		- Logo
+		- Monkey Intro
+	
+	<aside>
+		- Featured Article Contentish
+			- Title
+			- Date,
+			- Author
+			- Teaser
+	<section>
+		Services <article>
+			- Design
+			- Development
+			- Looting 
+			- Raping (April)
+
+	<footer>
+		- <nav>
+		- Social links
+		- Copyright
+
+About
+	<header>
+		- <nav>
+		- Logo
+		- Monkey Intro
+	
+	<aside>
+		- Blog Roll
+			- Title
+			- Date,
+			- Author
+			- Teaser
+	<section>
+		Members <article>
+			- Picture
+			- Pets
+			- Most Hated Foods (monkey brains)
+			- Skills
+			- Hobbies
+	<footer>
+		- <nav>
+		- Social links
+		- Copyright
+
+
+Portfolio
+	<header>
+		- <nav>
+		- Logo
+		- Monkey Intro
+	<aside>
+		- Did you know?
+	<section>
+		Portfolio pieces <article>
+			- link
+				- Image
+			- Title
+				- Client
+			- Author
+			- Description
+			- Tags
+				- Tools
+				- Languages
+				- Etc.
+	<footer>
+		- <nav>
+		- Social links
+		- Copyright
+
+
+
+
+
+
