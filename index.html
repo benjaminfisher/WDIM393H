@@ -2,36 +2,41 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>Pirate Monkeys</title>
+  <title>Pirate Monkey Web Design | Home</title>
 </head>
-<body>
+<body id="home">
 
   <header>
-    <img src="" alt="logo"/>
     <hgroup>
-      <h1>Title</h1>
-      <h2>Subtitle</h2>
+      <h1>Pirate Monkey</h1>
+      <h2>Web Design</h2>
     </hgroup>
+    <img src="assets/logo.png" alt="logo"/>
+
     <nav>
       <ul>
-        <li><a href="home/">Home</a></li>
+        <li><a class="current">Home</a></li>
         <li>
-          <a href="about/">About Us</a>
+          <a href="about/index.html">About Us</a>
           <ul>
-            <li><a href="about/#april">April</a></li>
-            <li><a href="about/#benjamin">Benjamin</a></li>
-            <li><a href="about/#charlie">Charlie</a></li>
-            <li><a href="about/#dougthaniel">Dougthaniel</a></li>
+            <li><a href="about/index.html#april">April</a></li>
+            <li><a href="about/index.html#benjamin">Benjamin</a></li>
+            <li><a href="about/index.html#charlie">Charlie</a></li>
+            <li><a href="about/index.html#nate">Nate</a></li>
           </ul>
         </li>
-        <li><a href="portfolio/">Portfolio</a></li>
+        <li><a href="portfolio/index.html">Portfolio</a></li>
       </ul>
     </nav>
   </header>
 
+  <hr/>
+
   <aside>
     <h2>Monkey Intro</h2>
-    <video src="monkeyintro.mp4"></video>
+    <video controls height="225" width="300">
+      <source src="assets/monkey.mp4"/>
+    </video>
   </aside>
 
   <section class="content">
@@ -40,9 +45,12 @@
 
   <aside class="sidebar">
     <section class="treasure">
-      <h2>Treasure</h2>
+      <h2>Recent Articles</h2>
       <article>
         <h3>Title</h3>
+        <time datetime="2012-01-29">January 29th, 2012</time>
+        <h4>Author</h4>
+        <p>Teaser</p>
       </article>
     </section>
     <section class="did-you-know">
@@ -67,22 +75,24 @@
     </section>
   </aside>
 
+  <hr/>
+
   <footer>
     <nav class="secondary">
       <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Portfolio</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Us</a></li>
+        <li><a href="/portfolio/">Portfolio</a></li>
       </ul>
     </nav>
 
     <ul class="social-links">
-      <li>Twitter</li>
-      <li>Facebook</li>
-      <li>Linkedin</li>
+      <li><a href="#twitter" onclick="return false;">Twitter</a></li>
+      <li><a href="#facebook" onclick="return false;">Facebook</a></li>
+      <li><a href="#linkedin" onclick="return false;">Linkedin</a></li>
     </ul>
 
-    <p>Copyright</p>
+    <p>&copy;2012 Pirate Monkey Web Design. All Rights Reserved.</p>
   </footer>
 
 </body>
