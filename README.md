@@ -11,3 +11,7 @@
     * Added a video to the front page
     * Added some of my own stuff
     * Pushed to gh-pages
+
+  * Benjamin
+  	* Minor corrections to the video and audio tags
+  	* Added my about and portfolio sections
