@@ -15,3 +15,5 @@
   * Benjamin
   	* Minor corrections to the video and audio tags
   	* Added my about and portfolio sections
+  	* Cleaned up the About and Portfolio pages, removing duplicate headers and footers
+  	* Removed some empty content sections
