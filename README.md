@@ -21,7 +21,9 @@
 ## Week 4 Homework - CSS
 
   * Benjamin
+  	* Created dev branch
   	* Installed head.js (http://headjs.com/)
     * Installed Compass with SASS (http://compass-style.org/)
       * SASS uses the same syntax as Less but has more options
       * Install Compass gem which includes SASS and the Compass framework
+	* Started on header styles

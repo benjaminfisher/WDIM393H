@@ -66,3 +66,64 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 3, scss/header.scss */
+header {
+  background: #a9acae;
+  border-radius: 10px;
+  height: 130px;
+  margin: 10px;
+  min-width: 1000px;
+  padding: 10px;
+  position: relative;
+}
+/* line 12, scss/header.scss */
+header img {
+  position: absolute;
+  right: 10px;
+}
+/* line 14, scss/header.scss */
+header h1 {
+  font-size: 3em;
+  text-shadow: white 1px 1px, white -1px -1px;
+}
+/* line 20, scss/header.scss */
+header nav ul li {
+  background-color: #828689;
+  color: red;
+  display: block;
+  float: left;
+  font-size: 3em;
+  height: 55px;
+  margin: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 270px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 34, scss/header.scss */
+header nav ul li li {
+  display: none;
+}
+/* line 35, scss/header.scss */
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 8, scss/screen.scss */
+body {
+  background: white;
+  font-family: 'Fresca', 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+/* line 14, scss/screen.scss */
+section {
+  background: grey;
+}
