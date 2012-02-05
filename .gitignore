@@ -4,3 +4,5 @@
 .project
 backup
 backup
+.settings
+.sass-cache
