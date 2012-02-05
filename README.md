@@ -20,8 +20,8 @@
 
 ## Week 4 Homework - CSS
 
-	* Benjamin
-		* Installed Compass with SASS (http://compass-style.org/)
-			- SASS uses the same syntax as Less but has more options
-			- Install Compass gem which includes SASS and the Compass framework
-		* Installed head.js (http://headjs.com/)
+  * Benjamin
+    * Installed Compass with SASS (http://compass-style.org/)
+      * SASS uses the same syntax as Less but has more options
+      * Install Compass gem which includes SASS and the Compass framework
+  * Installed head.js (http://headjs.com/)
