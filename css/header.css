@@ -1,12 +1,22 @@
 /*
 Syntax error: Undefined mixin 'text-shadow'.
-        on line 16 of C:/xampp/htdocs/wdim393h/css/scss/header.scss, in `text-shadow'
-        from line 16 of C:/xampp/htdocs/wdim393h/css/scss/header.scss
+        on line 22 of C:/xampp/htdocs/wdim393h/css/scss/header.scss, in `text-shadow'
+        from line 22 of C:/xampp/htdocs/wdim393h/css/scss/header.scss
 
 Backtrace:
-C:/xampp/htdocs/wdim393h/css/scss/header.scss:16:in `text-shadow'
-C:/xampp/htdocs/wdim393h/css/scss/header.scss:16
+C:/xampp/htdocs/wdim393h/css/scss/header.scss:22:in `text-shadow'
+C:/xampp/htdocs/wdim393h/css/scss/header.scss:22
 C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:168:in `visit_mixin'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:18:in `visit'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:234:in `visit_rule'
 C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:37:in `visit'
 C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/perform.rb:18:in `visit'
 C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.11/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -86,4 +96,4 @@ C:/Ruby192/bin/compass:19:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'text-shadow'.\A         on line 16 of C:/xampp/htdocs/wdim393h/css/scss/header.scss, in `text-shadow'\A         from line 16 of C:/xampp/htdocs/wdim393h/css/scss/header.scss"; }
+  content: "Syntax error: Undefined mixin 'text-shadow'.\A         on line 22 of C:/xampp/htdocs/wdim393h/css/scss/header.scss, in `text-shadow'\A         from line 22 of C:/xampp/htdocs/wdim393h/css/scss/header.scss"; }

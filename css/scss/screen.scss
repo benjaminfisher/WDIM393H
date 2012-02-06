@@ -14,3 +14,14 @@ body{
 section{
   background:grey;
 }
+
+section.content{
+  margin-top:210px;
+}
+
+section.music{
+  background-color:$color;
+  position:absolute;
+  right: 245px;
+  top: 30px;
+}
