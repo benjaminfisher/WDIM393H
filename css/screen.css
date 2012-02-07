@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 3, scss/header.scss */
 header {
-  background: #a9acae;
+  background:url('images/background-main.jpg');
   border-radius: 10px;
   height: 130px;
   margin: 10px;
@@ -81,44 +81,60 @@ header {
 header img {
   position: absolute;
   right: 10px;
+  top:0px;
 }
 /* line 14, scss/header.scss */
 header h1 {
   font-size: 3em;
-  text-shadow: white 1px 1px, white -1px -1px;
+  color:white;
+  text-shadow: black 1px 1px, black -1px -1px;
+  margin-left:20px;
+}
+header h2 {
+	margin-left:20px;
+	text-shadow:#999 1px 1px 0;
 }
 /* line 20, scss/header.scss */
+header nav {
+	float:left;
+}
 header nav ul li {
-  background-color: #828689;
-  color: red;
+	float:left;
+}
+header nav ul li a {
   display: block;
-  float: left;
+  text-decoration:none;
   font-size: 3em;
-  height: 55px;
   margin: 20px;
-  padding: 10px 20px;
+  padding: 6px 20px;
   text-align: center;
   width: 270px;
+  color: #000;
+  
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+  background:#ccc;
+  -moz-box-shadow: 0px 0px 10px;
+	
+  -webkit-transition-property: color, background;
+  -webkit-transition-duration: .5s, .5s;
+  -webkit-transition-timing-function: linear, ease-in;
+}
+header nav ul li a:hover {
+	background:#333;
+	color:white;
 }
 /* line 34, scss/header.scss */
 header nav ul li li {
   display: none;
 }
-/* line 35, scss/header.scss */
-header nav ul li a {
-  color: black;
-  text-decoration: none;
-}
-
 /* line 8, scss/screen.scss */
 body {
-  background: white;
+  background:black;
   font-family: 'Fresca', 'Arial', sans-serif;
   font-size: 14px;
 }
@@ -126,4 +142,18 @@ body {
 /* line 14, scss/screen.scss */
 section {
   background: grey;
+}
+section.content {
+  background:url('images/background-main.jpg');
+  border-radius: 10px;
+  margin: 10px;
+  width:66%;
+  float:left; 
+  padding: 10px;
+  position: relative;
+  overflow:hidden;
+}
+aside {
+	float:right;
+	width:33%;
 }
