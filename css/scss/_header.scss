@@ -1,8 +1,4 @@
-@import "compass/css3";
-
-$color: #a9acae;
-$menu-hover-color: #b2dcfc;
-$default_border_radius: 10px;
+@import "compass/css3", "variables";
 
 header{
   background: $color;

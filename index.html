@@ -46,6 +46,16 @@
 		</nav>
 	</header>
 
+	<section class="music"> 
+		<h3>Jaunty swashbuckling music for your listening pleasure</h3>
+		<audio src="assets/music.ogg" controls loop="loop">
+			<!-- Note:  The loop does not work in Firefox or Opera.  Does work in Chrome and Safari. I don't have IE on my computer to test.  (april)-->
+			<source src="assets/music.ogg" type="audio/ogg" />
+			<source src="assets/music.mp3" type="audio/mp3" />
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	
 	<section class="content">
 		<article>
 			<video src="assets/monkey.mp4" type="video/mpeg">
@@ -66,23 +76,37 @@
 		</article>
 	</section>
 
-	<section class="news">
-		<h3>Latest news</h3>
-
-		<article>
-			<h4>New Office</h4>
-			<p>The dust is cleared and we finally settled into our new office in downtown Portland. Be sure to come by and see our new digs. We even have fancy vending machines, an orange accent wall, and a pool table.</p>
-			<footer><time datetime="2011-01-20">Jan 20th, 2011</time></footer>
-		</article>
-
-		<article>
-			<h4> Team Pirate Monkey wins award</h4>
-			<p>The team recently won a WebDev 2012 Gold Medal for our pioneering designs using HTML5. We're very proud of this! Check out our portfolio to see some of the work that lead to this award.</p>
-			<footer><time datetime="2011-12-14">Dec. 14th, 2011</time></footer>
-		</article>
-	</section>
-
 	<aside>
+		<section class="did-you-know">
+			<h2>Did You Know?</h2>
+			<p>April loves ferrets.</p>
+			<p>She has owned over 25 in her life time and has 8 of her ferrets tattooed on her body.</p>
+
+			<p>Benjamin does the poetry thing.</p>
+			<p>He produces and hosts a monthly reading series featuring local open mike poets.</p>
+
+			<p>Charlie has an Uncle named OJ</p>
+			<p>Enough Said</p>
+			
+			<p>Nate was named after one of the earliest authors of American literature, Nathaniel Hawthorne.</p>
+		</section>
+		
+		<section class="news">
+			<h3>Latest news</h3>
+	
+			<article>
+				<h4>New Office</h4>
+				<p>The dust is cleared and we finally settled into our new office in downtown Portland. Be sure to come by and see our new digs. We even have fancy vending machines, an orange accent wall, and a pool table.</p>
+				<footer><time datetime="2011-01-20">Jan 20th, 2011</time></footer>
+			</article>
+	
+			<article>
+				<h4> Team Pirate Monkey wins award</h4>
+				<p>The team recently won a WebDev 2012 Gold Medal for our pioneering designs using HTML5. We're very proud of this! Check out our portfolio to see some of the work that lead to this award.</p>
+				<footer><time datetime="2011-12-14">Dec. 14th, 2011</time></footer>
+			</article>
+		</section>
+		
 		<h3>Treasure Chest</h3>
 
 		<section class="gold-progress">
@@ -90,36 +114,8 @@
 			<progress max="100" value="10">Progress: 10% done.</progress>
 			<p>Our goal is to collect 1 <strong>million</strong> gold pieces. And by gold pieces, we mean hits. We're tracking the hits that each of our clients' web sites gets and aggregating them. Reaching our goal is a success for us, and for our clients.</p>
 		</section>
-
-		<section class="music"> 
-			<h3>Jaunty swashbuckling music for your listening pleasure</h3>
-			<audio src="assets/music.ogg" controls loop="loop">
-				<!-- Note:  The loop does not work in Firefox or Opera.  Does work in Chrome and Safari. I don't have IE on my computer to test.  (april)-->
-				<source src="assets/music.ogg" type="audio/ogg" />
-				<source src="assets/music.mp3" type="audio/mp3" />
-				Your browser does not support the audio element.
-			</audio>
-		</section>
-
-		<section class="did-you-know">
-			<h2>Did You Know?</h2>
-			<p>April loves ferrets.</p>
-			<p>She has owned over 25 in her life time and has 8 of her ferrets tattooed on her body.</p>
-			<hr />
-
-			<p>Benjamin does the poetry thing.</p>
-			<p>He produces and hosts a monthly reading series featuring local open mike poets.</p>
-			<hr />
-
-			<p>Charlie has an Uncle named OJ</p>
-			<p>Enough Said</p>
-			<hr />
-			
-			<p>Nate was named after one of the earliest authors of American literature, Nathaniel Hawthorne.</p>
-		</section>
+		
 	</aside>
-
-	<hr />
 
 	<footer>
 		<nav class="secondary">

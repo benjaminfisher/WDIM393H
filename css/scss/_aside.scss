@@ -1,0 +1,13 @@
+@import 'compass/css3', "variables";
+
+aside{
+  float: right;
+  margin-top: 210px;
+  margin-right:20px;
+  padding:10px;
+  width: 30%;
+  
+  background: $color;
+  
+  @include border-radius($default-border-radius);
+}
