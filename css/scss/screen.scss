@@ -5,17 +5,13 @@
 
 @import "compass/reset", "compass/support", "compass/css3", "variables", "header", "aside", "footer";
 
-body{
+body {
   background:white;
   font-family: 'Fresca', 'Arial', sans-serif;
   font-size:14px;
 }
 
-section{
-  border:1px solid red;
-}
-
-section.content{
+section.content {
   background: $color;
   float:left;
   padding: 10px;
@@ -27,7 +23,7 @@ section.content{
   @include border-radius($default-border-radius);
 }
 
-section.music{
+section.music {
   background-color:$color;
   position:absolute;
   right: 245px;

@@ -1,6 +1,6 @@
 @import 'compass/css3', "variables";
 
-aside{
+aside.sidebar {
   float: right;
   margin-top: 210px;
   margin-right:20px;
@@ -10,4 +10,43 @@ aside{
   background: $color;
   
   @include border-radius($default-border-radius);
+
+  section {
+    h3 {
+      font-size: 22px;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      margin-left: 2em;
+      padding-bottom: 2em;
+      
+      li {
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+
+    &.news {
+      article {
+        h4 {
+          font-size: 18px;
+          text-decoration: underline;
+        }
+        time {
+          color: #fff;
+        }
+        p {
+          padding: 10px 0;
+
+          .read-more {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
 }

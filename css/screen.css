@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -104,13 +104,14 @@ header hgroup h2 {
 header nav {
   width: 95%;
   position: relative;
+  z-index: 500;
 }
-/* line 36, scss/_header.scss */
+/* line 37, scss/_header.scss */
 header nav > ul {
   float: left;
   width: 100%;
 }
-/* line 40, scss/_header.scss */
+/* line 41, scss/_header.scss */
 header nav > ul > li {
   background-color: #c3c5c7;
   display: block;
@@ -133,7 +134,7 @@ header nav > ul > li {
   -khtml-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 55, scss/_header.scss */
+/* line 56, scss/_header.scss */
 header nav > ul > li ul {
   background-color: #42abfa;
   display: none;
@@ -153,36 +154,36 @@ header nav > ul > li ul {
   -khtml-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/* line 64, scss/_header.scss */
+/* line 65, scss/_header.scss */
 header nav > ul > li ul li {
   font-size: 0.5em;
   line-height: 1em;
   text-align: left;
 }
-/* line 69, scss/_header.scss */
+/* line 70, scss/_header.scss */
 header nav > ul > li ul li a {
   color: #FFF;
 }
-/* line 71, scss/_header.scss */
+/* line 72, scss/_header.scss */
 header nav > ul > li ul li a:hover {
   color: #000;
 }
-/* line 76, scss/_header.scss */
+/* line 77, scss/_header.scss */
 header nav > ul > li:hover {
   background-color: #b2dcfc;
 }
-/* line 79, scss/_header.scss */
+/* line 80, scss/_header.scss */
 header nav > ul > li:hover ul {
   display: block;
 }
-/* line 82, scss/_header.scss */
+/* line 83, scss/_header.scss */
 header nav > ul > li a {
   color: black;
   text-decoration: none;
 }
 
 /* line 3, scss/_aside.scss */
-aside {
+aside.sidebar {
   float: right;
   margin-top: 210px;
   margin-right: 20px;
@@ -195,6 +196,41 @@ aside {
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+}
+/* line 15, scss/_aside.scss */
+aside.sidebar section h3 {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+/* line 22, scss/_aside.scss */
+aside.sidebar section ul {
+  list-style: none;
+  margin-left: 2em;
+  padding-bottom: 2em;
+}
+/* line 27, scss/_aside.scss */
+aside.sidebar section ul li {
+  font-size: 15px;
+  line-height: 18px;
+}
+/* line 35, scss/_aside.scss */
+aside.sidebar section.news article h4 {
+  font-size: 18px;
+  text-decoration: underline;
+}
+/* line 39, scss/_aside.scss */
+aside.sidebar section.news article time {
+  color: #fff;
+}
+/* line 42, scss/_aside.scss */
+aside.sidebar section.news article p {
+  padding: 10px 0;
+}
+/* line 45, scss/_aside.scss */
+aside.sidebar section.news article p .read-more {
+  color: #fff;
 }
 
 /* line 3, scss/_footer.scss */
@@ -210,11 +246,6 @@ body {
 }
 
 /* line 14, scss/screen.scss */
-section {
-  border: 1px solid red;
-}
-
-/* line 18, scss/screen.scss */
 section.content {
   background: #a9acae;
   float: left;
@@ -231,7 +262,7 @@ section.content {
   border-radius: 10px;
 }
 
-/* line 30, scss/screen.scss */
+/* line 26, scss/screen.scss */
 section.music {
   background-color: #a9acae;
   position: absolute;
