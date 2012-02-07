@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 4, scss/header.scss */
+/* line 7, scss/header.scss */
 header {
   background: #a9acae;
   border-radius: 10px;
@@ -79,38 +79,38 @@ header {
   right: 10px;
   top: 10px;
 }
-/* line 15, scss/header.scss */
+/* line 18, scss/header.scss */
 header img {
   position: absolute;
   right: 10px;
 }
-/* line 17, scss/header.scss */
+/* line 20, scss/header.scss */
 header hgroup {
   width: 36%;
 }
-/* line 20, scss/header.scss */
+/* line 23, scss/header.scss */
 header hgroup h1 {
   font-size: 3em;
   text-shadow: white 1px 1px, white -1px -1px;
 }
-/* line 25, scss/header.scss */
+/* line 28, scss/header.scss */
 header hgroup h2 {
   font-size: 1.5em;
   letter-spacing: 2.5px;
   left: 3px;
   position: relative;
 }
-/* line 33, scss/header.scss */
+/* line 36, scss/header.scss */
 header nav {
   width: 95%;
   position: relative;
 }
-/* line 37, scss/header.scss */
+/* line 40, scss/header.scss */
 header nav > ul {
   float: left;
   width: 100%;
 }
-/* line 41, scss/header.scss */
+/* line 44, scss/header.scss */
 header nav > ul > li {
   background-color: #c3c5c7;
   display: block;
@@ -133,42 +133,49 @@ header nav > ul > li {
   -khtml-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 57, scss/header.scss */
+/* line 59, scss/header.scss */
 header nav > ul > li ul {
-  background-color: blue;
+  background-color: #42abfa;
   display: none;
-  height: 300px;
   padding: 10px;
   position: relative;
-  top: 20px;
+  top: 15px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  -ms-border-bottom-left-radius: 10px;
+  -khtml-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  -ms-border-bottom-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-/* line 65, scss/header.scss */
+/* line 68, scss/header.scss */
 header nav > ul > li ul li {
   font-size: 0.5em;
   line-height: 1em;
   text-align: left;
 }
-/* line 70, scss/header.scss */
+/* line 73, scss/header.scss */
 header nav > ul > li ul li a {
   color: #FFF;
 }
-/* line 72, scss/header.scss */
+/* line 75, scss/header.scss */
 header nav > ul > li ul li a:hover {
   color: #000;
 }
-/* line 77, scss/header.scss */
+/* line 80, scss/header.scss */
 header nav > ul > li:hover {
   background-color: #b2dcfc;
 }
-/* line 80, scss/header.scss */
+/* line 83, scss/header.scss */
 header nav > ul > li:hover ul {
   display: block;
 }
-/* line 83, scss/header.scss */
-header nav > ul > li li {
-  display: none;
-}
-/* line 84, scss/header.scss */
+/* line 86, scss/header.scss */
 header nav > ul > li a {
   color: black;
   text-decoration: none;
