@@ -16,6 +16,9 @@
       * Implemented layout based on Charlie's new design
       * Normalized HTML conventions across pages
       * Created page-specific CSS files for easy scoping
+    * CSS3
+      * Added style to progress bar with polyfill
+      * Added animation on document load using webkit keyframes
 
 ## Week 3 Homework - Markup (HTML5)
 
