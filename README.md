@@ -12,6 +12,10 @@
       * Tagline from Charlie's Comp -> Inside Global Header
       * Progress Bar -> Inside Global Footer
       * Temporarily removed video and audio
+    * New Design
+      * Implemented layout based on Charlie's new design
+      * Normalized HTML conventions across pages
+      * Created page-specific CSS files for easy scoping
 
 ## Week 3 Homework - Markup (HTML5)
 
