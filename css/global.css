@@ -5,7 +5,6 @@ html {
               url(../img/bg.png) 0 0 repeat;
   background-size: cover, auto;
   font-family: 'PT Sans', sans-serif;
-  overflow: hidden;
   -webkit-animation-name: 'docload';
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
