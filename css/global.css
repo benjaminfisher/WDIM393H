@@ -196,6 +196,9 @@ header.global nav.primary ul.social a {
     background-position: 0 bottom;
     opacity: 1;
     -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
 
   header.global nav.primary ul.social a.twitter { background-position: 0 0 }
@@ -216,11 +219,18 @@ header.global section.tagline {
 header.global section.tagline p {
   color: rgba(0,0,0,.5);
   font: normal 24px 'PT Sans', sans-serif;
+  text-shadow: 0 1px 0 #fff;
   -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
   header.global section.tagline p:hover {
     color: rgba(0,0,0,.8);
     -webkit-transform: scale(1.02,1.02);
+    -moz-transform: scale(1.02,1.02);
+    -o-transform: scale(1.02,1.02);
+    transform: scale(1.02,1.02);
   }
 
 /* sidebar */
@@ -242,6 +252,9 @@ aside.sidebar section h3 {
   color: #999;
   font-size: 20px;
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 /* news */
@@ -317,14 +330,7 @@ footer.global p.legal {
   width: 33%;
 }
 
-footer.global section.progress {
-  width: 34%;
-  float: left;
-}
-footer.global section.progress p.title {
-  display: inline;
-  padding-right: 10px;
-}
+/* secondary nav */
 
 footer.global nav.secondary {
   float: right;
@@ -343,4 +349,155 @@ footer.global nav.secondary ul.site a:hover {
 footer.global nav.secondary ul.site li  + li a:after {
   content: '/';
   padding-left: 10px;
+}
+
+/* progress bar */
+
+footer.global section.progress {
+  float: left;
+  padding: 0 5px;
+}
+footer.global section.progress p.title {
+  display: inline;
+  padding: 0 7px 0 0;
+}
+
+/* All HTML5 progress enabled browsers */
+progress {
+  /* Turns off styling - not usually needed, but good to know. */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  /* gets rid of default border in Firefox and Opera. */
+  border-radius: 7px;
+  padding: 2px;
+  
+  /* Dimensions */
+  width: 150px;
+  height: 12px;
+}
+
+/* Polyfill */
+progress[role]:after {
+  background-image: none; /* removes default background from polyfill */
+}
+
+progress[role] strong {
+  display: none;
+}
+
+/*
+ * Background of the progress bar background
+ */
+
+/* Firefox and Polyfill */
+progress {
+  background: #ddd !important; /* !important only needed in polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+  background: #ddd;
+}
+
+/*
+ * Background of the progress bar value 
+ */
+
+/* Firefox */
+progress::-moz-progress-bar { 
+  border-radius: 5px;
+  background: rgba(200,20,20,.7);
+  background-image: -moz-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  -moz-box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+                   inset 0 -1px 4px rgba(0,0,0,.3);
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+  border-radius: 5px;
+  background: rgba(200,20,20,.7);
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+                    color-stop(.25, rgba(255, 255, 255, .2)),
+                    color-stop(.25, transparent), color-stop(.5, transparent),
+                    color-stop(.5, rgba(255, 255, 255, .2)),
+                    color-stop(.75, rgba(255, 255, 255, .2)),
+                    color-stop(.75, transparent), to(transparent)
+                    );
+  background-image: -webkit-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  -webkit-box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+                      inset 0 -1px 4px rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+              inset 0 -1px 4px rgba(0,0,0,.3);
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+                    color-stop(.25, rgba(255, 255, 255, .2)),
+                    color-stop(.25, transparent), color-stop(.5, transparent),
+                    color-stop(.5, rgba(255, 255, 255, .2)),
+                    color-stop(.75, rgba(255, 255, 255, .2)),
+                    color-stop(.75, transparent), to(transparent)
+                    );
+  background-image: -webkit-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -moz-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -ms-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -o-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
 }
