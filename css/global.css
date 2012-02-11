@@ -5,6 +5,15 @@ html {
               url(../img/bg.png) 0 0 repeat;
   background-size: cover, auto;
   font-family: 'PT Sans', sans-serif;
+  overflow: hidden;
+  -webkit-animation-name: 'docload';
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes docload {
+  0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  100% { opacity: 1; -webkit-transform: scale(1.0) rotate(0deg); }
 }
 
 body {
