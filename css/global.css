@@ -224,7 +224,7 @@ header.global section.tagline {
   margin-left: 180px;
   padding: 15px 0;
 }
-header.global section.tagline p {
+header.global section.tagline{
   color: rgba(0,0,0,.5);
   font: normal 24px 'PT Sans', sans-serif;
   text-shadow: 0 1px 0 #fff;
@@ -233,7 +233,7 @@ header.global section.tagline p {
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-  header.global section.tagline p:hover {
+  header.global section.tagline:hover{
     color: rgba(0,0,0,.8);
     -webkit-transform: scale(1.02,1.02);
     -moz-transform: scale(1.02,1.02);
