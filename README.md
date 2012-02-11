@@ -1,6 +1,19 @@
 # WDIM393H - Group Project Repo
 
-## Week 3 Homework - Markup
+## Week 4 + 5 Homework - Style (CSS3)
+
+  * Nate
+    * Reset master branch, rebuilding from scratch
+    * Replaced non-web fonts with google font imports
+      * Alexandria -> Arvo
+      * Ideal Sans -> PT Sans
+    * Reorganized content
+      * News from Index -> Inside Global Sidebar
+      * Tagline from Charlie's Comp -> Inside Global Header
+      * Progress Bar -> Inside Global Footer
+      * Temporarily removed video and audio
+
+## Week 3 Homework - Markup (HTML5)
 
   * Nate
     * Added header and footer to April's about page

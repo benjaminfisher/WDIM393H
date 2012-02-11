@@ -3,139 +3,145 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pirate Monkeys</title>
-	
-	<script src="js/head.min.js"></script>
-	
-	<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
-	<!--[if IE]>
-		<link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<![endif]-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
-<body id="home">
+<body id="index">
 
-	<header>
-		<img src="assets/logo.png" alt="logo"/>
-		<hgroup>
-			<h1>Team Pirate Monkey WDIM393</h1>
-			<h2>April, Benjamin, Charlie &amp; Nate</h2>
+	<!-- global header -->
+
+	<header class="global">
+		<hgroup class="group">
+			<h1><a href="index.html">Pirate Monkeys</a></h1>
+			<h2 class="group">
+				<span class="active">Good</span>
+				<span class="switch"></span>
+				<span>Evil</span>
+			</h2>
 		</hgroup>
 
-		<nav>
-			<ul>
-				<li><a class="current">Home</a></li>
-				<li>
-					<a href="about/index.html">About Us</a>
-					<ul>
-						<li><a href="about/index.html#april">April</a></li>
-						<li><a href="about/index.html#benjamin">Benjamin</a></li>
-						<li><a href="about/index.html#charlie">Charlie</a></li>
-						<li><a href="about/index.html#nate">Nate</a></li>
-					</ul>
-				</li>
-				<li><a href="portfolio/index.html">Portfolio</a>
-					<ul>
-						<li><a href="portfolio/index.html#april">April's Projects</a></li>
-						<li><a href="portfolio/index.html#benjamin">Benjamin's Projects</a></li>
-						<li><a href="portfolio/index.html#charlie">Charlie's Projects</a></li>
-						<li><a href="portfolio/index.html#nate">Nate's Projects</a></li>
-					</ul>
-				</li>
+		<nav class="primary">
+			<ul class="site group">
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+
+			<ul class="social group">
+				<li><a class="fb" href="">Facebook</a></li>
+				<li><a class="gplus" href="">Google+</a></li>
+				<li><a class="twitter" href="">Twitter</a></li>
 			</ul>
 		</nav>
+
+		<section class="tagline">
+			<p>
+				Half pirate, half monkey, all awesome. Our swashbuckling team of
+				design and coding monkeys will sail the seven seas to create the
+				site you need.
+			</p>
+		</section>
 	</header>
 
-	<hr>
+	<!-- page content -->
 
-	<section class="content">
-		<article>
-			<video src="assets/monkey.mp4" controls height="225" width="300">
-				<p>It seems your browser is old and outdated. Sadly you cannot view this fabulous video.</p>
-			</video>
-			<p>We're here to outperform all the other web design companies out there. We give no quarter, and we don't stop until you're satisfied. Our swashbuckling team of design and coding monkeys will sail the seven seas to create the site you need.</p>
+	<section id="main" class="group">
+		<section id="content" class="group">
+			<article>
+				<!--video src="assets/monkey.mp4" controls height="225" width="300">
+					<p>
+						It seems your browser is old and outdated.
+						Sadly you cannot view this fabulous video.
+					</p>
+				</video-->
 
-			<h3>Our Specialities</h3>
-			<ul>
-				<li>E-commerce</li>
-				<li>Social Hubs</li>
-				<li>Mobile Device compatibility</li>
-			</ul>
+				<p>
+					We're here to outperform all the other web design companies out there.
+					We give no quarter, and we don't stop until you're satisfied. Our
+					swashbuckling team of design and coding monkeys will sail the seven
+					seas to create the site you need.
+				</p>
 
-			<p>Give us your mission and we'll see it through!</p>
+				<h3>Our Specialities</h3>
 
-			<button id="quote_button">Request a quote</button>
-		</article>
+				<ul>
+					<li>E-commerce</li>
+					<li>Social Hubs</li>
+					<li>Mobile Device compatibility</li>
+				</ul>
+
+				<p>Give us your mission and we'll see it through!</p>
+
+				<button id="quote">Request a quote</button>
+			</article>
+		</section>
+
+		<!-- global sidebar -->
+
+		<aside class="sidebar">
+			<section class="news group">
+				<h3>Latest news</h3>
+
+				<article>
+					<details>
+						<summary>
+							<header>
+								<h4>New Office</h4>
+								<time datetime="2011-01-20">Jan 20th, 2011</time>
+							</header>
+						</summary>
+						<p>
+							The dust is cleared and we finally settled into our new office in
+							downtown Portland. Be sure to come by and see our new digs. We even
+							have fancy vending machines, an orange accent wall, and a pool table.
+						</p>
+					</details>
+				</article>
+
+				<article>
+					<details>
+						<summary>
+							<header>
+								<h4>We Won a Medal!</h4>
+								<time datetime="2011-12-14">Dec. 14th, 2011</time>
+							</header>
+						</summary>
+						<p>
+							The team recently won a WebDev 2012 Gold Medal for our pioneering
+							designs using HTML5. We're very proud of this! Check out our portfolio
+							to see some of the work that lead to this award.
+						</p>
+					</details>
+				</article>
+			</section>
+
+			<section class="did-you-know group">
+				<h3>Did You Know?</h3>
+				<p>Charlie has an uncle named OJ. Enough said.</p>
+			</section>
+		</aside>
 	</section>
 
-	<section class="news">
-		<h3>Latest news</h3>
+	<!-- global footer -->
 
-		<article>
-			<h4>New Office</h4>
-			<p>The dust is cleared and we finally settled into our new office in downtown Portland. Be sure to come by and see our new digs. We even have fancy vending machines, an orange accent wall, and a pool table.</p>
-			<footer><time datetime="2011-01-20">Jan 20th, 2011</time></footer>
-		</article>
+	<footer class="global">
+		<section class="group">
+			<p class="legal">&copy;2012 Pirate Monkeys</p>
 
-		<article>
-			<h4> Team Pirate Monkey wins award</h4>
-			<p>The team recently won a WebDev 2012 Gold Medal for our pioneering designs using HTML5. We're very proud of this! Check out our portfolio to see some of the work that lead to this award.</p>
-			<footer><time datetime="2011-12-14">Dec. 14th, 2011</time></footer>
-		</article>
-	</section>
+			<section class="progress">
+				<p class="title">Site Progress:</p>
+				<progress max="100" value="50">50%</progress>
+			</section>
 
-	<aside>
-		<h3>Treasure Chest</h3>
-
-		<section class="gold-progress">
-			<h3>Jaunty Progress Meter</h3>
-			<progress max="100" value="10">Progress: 10% done.</progress>
-			<p>Our goal is to collect 1 <strong>million</strong> gold pieces. And by gold pieces, we mean hits. We're tracking the hits that each of our clients' web sites gets and aggregating them. Reaching our goal is a success for us, and for our clients.</p>
+			<nav class="secondary">
+				<ul class="site">
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html" class="current">Home</a></li>
+				</ul>
+			</nav>
 		</section>
-
-		<section class="music"> 
-			<h3>Jaunty swashbuckling music for your listening pleasure</h3>
-			<audio controls loop="loop">
-				<source src="assets/music.ogg" type="audio/ogg">
-				<source src="assets/music.mp3" type="audio/mp3">
-				Your browser does not support the audio element.
-			</audio>
-		</section>
-
-		<section class="did-you-know">
-			<h2>Did You Know?</h2>
-			<p>April loves ferrets.</p>
-			<p>She has owned over 25 in her life time and has 8 of her ferrets tattooed on her body.</p>
-			<hr />
-
-			<p>Benjamin does the poetry thing.</p>
-			<p>He produces and hosts a monthly reading series featuring local open mike poets.</p>
-			<hr />
-
-			<p>Charlie has an Uncle named OJ</p>
-			<p>Enough Said</p>
-			<hr />
-			
-			<p>Nate was named after one of the earliest authors of American literature, Nathaniel Hawthorne.</p>
-		</section>
-	</aside>
-
-	<hr>
-
-	<footer>
-		<nav class="secondary">
-			<ul>
-				<li><a class="current">Home</a></li>
-				<li><a href="about/index.html">About Us</a></li>
-				<li><a href="portfolio/index.html">Portfolio</a></li>
-			</ul>
-		</nav>
-
-		<p>&copy;2012 Team Pirate Monkey.</p>
-		<p>All rights reserved - Graphics and content used on this site may not be reproduced in any form or fashion.</p>
-		<p>Some of these facts are true. Some are complete bunk. Good luck figuring it out.</p>
 	</footer>
-	<script>
-		head.js("js/live.js")
-	</script>
 </body>
 </html>
