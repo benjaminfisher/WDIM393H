@@ -20,6 +20,13 @@
       * Added style to progress bar with polyfill
       * Added animation on document load using webkit keyframes
 
+  * Benjamin
+    * Pulled Nates changes from the master to gh-pages branch
+    * Pushed the update to gh-pages remote. Current version of the project is live.
+
+----------
+
+
 ## Week 3 Homework - Markup (HTML5)
 
   * Nate
