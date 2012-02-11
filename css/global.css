@@ -15,7 +15,7 @@ body {
 
 /* helpers */
 
-/* nicholas gallagher's clearfix */
+/* nicholas gallagher's micro-clearfix */
 .group:before,
 .group:after {
     content:"";
@@ -71,7 +71,9 @@ header.global h2 {
     float: left;
     padding-top: 3px;
   }
+    header.global h2:active span { color: #bd0505 }
     header.global h2 span.active { color: #bd0505 }
+    header.global h2:active span.active { color: #575757 }
     header.global h2 span.switch {
       background: url(../img/switch.png) center 0 no-repeat;
       height: 16px;
@@ -154,7 +156,7 @@ header.global nav.primary ul.site li a {
                  0 3px 0 #400,
                  0 3px 2px rgba(0,0,0,.4),
                  0 6px 1px rgba(0,0,0,.1);
-    text-shadow: 0 1px 0 #888;
+    text-shadow: 0 1px 0 #300;
     bottom: 1px;
   }
   header.global nav.primary ul.site a:active,
