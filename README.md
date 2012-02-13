@@ -19,10 +19,29 @@
     * CSS3
       * Added style to progress bar with polyfill
       * Added animation on document load using webkit keyframes
+    * Index
+      * Styled the index
 
   * Benjamin
     * Pulled Nates changes from the master to gh-pages branch
     * Pushed the update to gh-pages remote. Current version of the project is live.
+     
+    -----
+	Revisions from Week 4 that have been overwritten
+  	* Created dev branch
+  	* Installed head.js (http://headjs.com/)
+    * Installed Compass with SASS (http://compass-style.org/)
+      * SASS uses the same syntax as Less but has more options
+      * Install Compass gem which includes SASS and the Compass framework
+	* Started on header styles
+    * Minor corrections to the video and audio tags
+    * Added my about and portfolio sections
+    * Cleaned up the About and Portfolio pages, removing duplicate headers and footers
+    * Removed some empty content sections
+
+  * April
+    * Formatted the About page (changed HTML5 and CSS3)
+    * Validated
 
 ----------
 
@@ -45,12 +64,3 @@
   	* Cleaned up the About and Portfolio pages, removing duplicate headers and footers
   	* Removed some empty content sections
 
-## Week 4 Homework - CSS
-
-  * Benjamin
-  	* Created dev branch
-  	* Installed head.js (http://headjs.com/)
-    * Installed Compass with SASS (http://compass-style.org/)
-      * SASS uses the same syntax as Less but has more options
-      * Install Compass gem which includes SASS and the Compass framework
-	* Started on header styles

@@ -1,130 +1,116 @@
-	<!DOCTYPE HTML>
-	<html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pirate Monkeys</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/progress-polyfill.min.js"></script>
+</head>
+<body id="index">
+
+	<!-- global header -->
+
+	<header class="global">
+		<hgroup class="group">
+			<h1><a href="index.html">Pirate Monkeys</a></h1>
+			<h2 class="group">
+				<span class="active">Good</span>
+				<span class="switch"></span>
+				<span>Evil</span>
+			</h2>
+		</hgroup>
+
+		<nav class="primary">
+			<ul class="site group">
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+
+			<ul class="social group">
+				<li><a class="fb" href="">Facebook</a></li>
+				<li><a class="gplus" href="">Google+</a></li>
+				<li><a class="twitter" href="">Twitter</a></li>
+			</ul>
+		</nav>
 		
-		<title>Pirate Monkeys</title>
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/global.css">
-		<link rel="stylesheet" href="css/index.css">
-		<script src="js/progress-polyfill.min.js"></script>
-	</head>
-	<body id="index">
-	
-		<!-- global header -->
-	
-		<header class="global">
-			<hgroup class="group">
-				<h1><a href="index.html">Pirate Monkeys</a></h1>
-				<h2 class="group">
-					<span class="active">Good</span>
-					<span class="switch"></span>
-					<span>Evil</span>
-				</h2>
-			</hgroup>
-	
-			<nav class="primary">
-				<ul class="site group">
-					<li><a href="index.html" class="current">Home</a></li>
-					<li><a href="about.html">About</a></li>
+		<section class="tagline">
+			<p>	Half pirate, half monkey, all awesome.</p>
+			<p> Our swashbuckling team of design and coding monkeys will sail the seven seas to create the site you need.</p>
+		</section>
+			
+	</header>
+
+	<section class="content">
+		<article>
+			<p>We're here to outperform all the other web design companies out there. We give no quarter, and we don't stop until you're satisfied. Our swashbuckling team of design and coding monkeys will sail the seven seas to create the site you need.</p>
+
+			<h3>Our Specialities</h3>
+			<ul>
+				<li>E-commerce</li>
+				<li>Social Hubs</li>
+				<li>Mobile Device compatibility</li>
+			</ul>
+
+			<p>Give us your mission and we'll see it through!</p>
+
+			<button id="quote_button">Request a quote</button>
+		</article>
+	</section>
+
+	<section class="news group">
+		<h3>Latest news</h3>
+
+		<article>
+			<details>
+				<summary>New Office</summary>
+				<p>The dust is cleared and we finally settled into our new office in downtown Portland. Be sure to come by and see our new digs. We even have fancy vending machines, an orange accent wall, and a pool table.</p>
+			</details>
+			<footer>
+				<time datetime="2011-01-20">Jan 20th, 2011</time>
+			</footer>
+		</article>
+
+		<article>
+			<details>
+				<summary>We Won a Medal!</summary>
+				<p>The team recently won a WebDev 2012 Gold Medal for our pioneering designs using HTML5. We're very proud of this! Check out our portfolio	to see some of the work that lead to this award.</p>
+			</details>
+			<footer>
+				<time datetime="2011-12-14">Dec. 14th, 2011</time>
+			</footer>
+		</article>
+	</section> <!-- End News -->
+
+	<aside>
+		<section class="did-you-know">
+			<p>Charlie has an Uncle named OJ</p>
+			<p>Enough Said</p>			
+		</section>
+	</aside>
+
+	<!-- global footer -->
+
+	<footer class="global">
+		<section class="group">
+			<p class="legal">&copy;2012 Pirate Monkeys</p>
+
+			<section class="progress">
+				<p class="title">Site Progress:</p>
+				<progress max="100" value="50">50%</progress>
+			</section>
+
+			<nav class="secondary">
+				<ul class="site">
 					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-	
-				<ul class="social group">
-					<li><a class="fb" href="">Facebook</a></li>
-					<li><a class="gplus" href="">Google+</a></li>
-					<li><a class="twitter" href="">Twitter</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html" class="current">Home</a></li>
 				</ul>
 			</nav>
-	
-			<section class="tagline">
-				<p>	Half pirate, half monkey, all awesome.</p>
-	            <p> Our swashbuckling team of design and coding monkeys will sail the seven seas to create the site you need.</p>
-			</section>
-		</header>
-	
-		<!-- page content -->
-	
-		<section id="main" class="group">
-			<section id="content" class="group">
-				<article>
-					<!--video src="assets/monkey.mp4" controls height="225" width="300">
-						<p>
-							It seems your browser is old and outdated.
-							Sadly you cannot view this fabulous video.
-						</p>
-					</video-->
-	
-					<p>We're here to outperform all the other web design companies out there. We give no quarter, and we don't stop until you're satisfied.</p>
-					<p>Our swashbuckling team of design and coding monkeys will sail the seven seas to create the site you need.</p>
-	
-					<h3>Our Specialities</h3>
-	
-					<ul>
-						<li>E-commerce</li>
-						<li>Social Hubs</li>
-						<li>Mobile Device compatibility</li>
-					</ul>
-	
-					<p>Give us your mission and we'll see it through!</p>
-	
-					<button id="quote">Request a quote</button>
-				</article>
-			</section>
-	
-			<!-- global sidebar -->
-	
-			<aside class="sidebar">
-				<section class="news group">
-					<h3>Latest news</h3>
-	
-					<article>
-						<details>
-							<summary>New Office</summary>
-							<p>The dust is cleared and we finally settled into our new office in downtown Portland. Be sure to come by and see our new digs. We even have fancy vending machines, an orange accent wall, and a pool table.</p>
-						</details>
-						<footer>
-							<time datetime="2011-01-20">Jan 20th, 2011</time>
-						</footer>
-					</article>
-	
-					<article>
-						<details>
-							<summary>We Won a Medal!</summary>
-							<p>The team recently won a WebDev 2012 Gold Medal for our pioneering designs using HTML5. We're very proud of this! Check out our portfolio	to see some of the work that lead to this award.</p>
-						</details>
-						<footer>
-							<time datetime="2011-12-14">Dec. 14th, 2011</time>
-						</footer>
-					</article>
-				</section> <!-- End News -->
-	
-				<section class="did-you-know group">
-					<h3>Did You Know?</h3>
-					<p>Charlie has an uncle named OJ. Enough said.</p>
-				</section>
-			</aside>
 		</section>
-	
-		<!-- global footer -->
-	
-		<footer class="global">
-			<section class="group">
-				<p class="legal">&copy;2012 Pirate Monkeys</p>
-	
-				<section class="progress">
-					<p class="title">Site Progress:</p>
-					<progress max="100" value="50">50%</progress>
-				</section>
-	
-				<nav class="secondary">
-					<ul class="site">
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="index.html" class="current">Home</a></li>
-					</ul>
-				</nav>
-			</section>
-		</footer>
-	</body>
-	</html>
+	</footer>
+
+</body>
+</html>
