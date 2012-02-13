@@ -9,6 +9,7 @@ html {
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
+
 @-webkit-keyframes docload {
   0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
   30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
@@ -46,7 +47,7 @@ header.global hgroup {
   border-bottom: 1px solid rgba(0,0,0,.1);
   float: left;
   padding-bottom: 50px;
-  width: 130px;
+  width: 140px;
 }
 
 header.global h1 a {
@@ -246,7 +247,7 @@ header.global section.tagline{
 
 aside.sidebar {
   float: left;
-  width: 130px;
+  width: 140px;
 }
 
 aside.sidebar section {
