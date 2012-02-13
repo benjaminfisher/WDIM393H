@@ -423,7 +423,7 @@ progress::-webkit-progress-bar { background: #ddd }
 /* Firefox */
 progress::-moz-progress-bar { 
   border-radius: 5px;
-  background: rgba(200,20,20,.7);
+  background: hsla(0,82%,43%,.7);
   background-image: -moz-linear-gradient(
                     -45deg,
                     rgba(255, 255, 255, .2) 25%,
