@@ -1,4 +1,14 @@
+/* fonts */
+
 @import url(http://fonts.googleapis.com/css?family=Arvo:700|PT+Sans:400,400italic);
+
+/* helpers */
+
+/* nicholas gallagher's tiny clearfix */
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both } .group { zoom: 1 }
+
+/* document */
 
 html {
   background: url(../img/overlay.png) center top no-repeat,
@@ -20,17 +30,10 @@ body {
 /* totally sweet webkit keyframe animation */
 
 @-webkit-keyframes docload {
-  0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
-  30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  0%   { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  30%  { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
   100% { opacity: 1; -webkit-transform: scale(1.0) rotate(0deg); }
 }
-
-/* helpers */
-
-/* nicholas gallagher's tiny clearfix */
-.group:before, .group:after { content: ""; display: table; }
-.group:after { clear: both }
-.group { zoom: 1 } /* For IE 6/7 (trigger hasLayout) */
 
 /* logo & title */
 
@@ -52,12 +55,8 @@ header.global h1 a {
   text-decoration: none;
   text-shadow: 0 1px 0 #fff;
 }
-  header.global h1 a:hover {
-    color: #bd0505;
-  }
-    header.global h1 a:active {
-      color: #d00;
-    }
+  header.global h1 a:hover  { color: #bd0505 }
+  header.global h1 a:active { color: #d00 }
 
 /* good/evil switch */
 
@@ -72,8 +71,8 @@ header.global h2 {
     float: left;
     padding-top: 3px;
   }
-    header.global h2:active span { color: #bd0505 }
-    header.global h2 span.active { color: #bd0505 }
+    header.global h2:active span        { color: #bd0505 }
+    header.global h2 span.active        { color: #bd0505 }
     header.global h2:active span.active { color: #575757 }
     header.global h2 span.switch {
       background: url(../img/switch.png) center 0 no-repeat;
@@ -81,9 +80,7 @@ header.global h2 {
       margin: 0 auto;
       width: 52px;
     }
-      header.global h2:active span.switch {
-        background-position: 0 -19px;
-      }
+      header.global h2:active span.switch { background-position: 0 -19px }
 
 /* primary nav */
 
@@ -186,22 +183,22 @@ header.global nav.primary ul.social a {
   overflow: hidden;
   text-indent: -9999em;
   width: 41px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
   header.global nav.primary ul.social a:hover {
     background-position: 0 bottom;
     opacity: 1;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
   }
 
-  header.global nav.primary ul.social a.twitter { background-position: 0 0 }
+  header.global nav.primary ul.social a.twitter       { background-position: 0 0 }
   header.global nav.primary ul.social a.twitter:hover { background-position: 0 bottom }
-  header.global nav.primary ul.social a.gplus { background-position: -41px 0 }
-  header.global nav.primary ul.social a.gplus:hover { background-position: -41px bottom }
-  header.global nav.primary ul.social a.fb { background-position: -82px 0 }
-  header.global nav.primary ul.social a.fb:hover { background-position: -82px bottom }
+  header.global nav.primary ul.social a.gplus         { background-position: -41px 0 }
+  header.global nav.primary ul.social a.gplus:hover   { background-position: -41px bottom }
+  header.global nav.primary ul.social a.fb            { background-position: -82px 0 }
+  header.global nav.primary ul.social a.fb:hover      { background-position: -82px bottom }
 
 /* tagline */
 
@@ -269,7 +266,8 @@ aside.sidebar section.news h3 {
   right: -39px;
 }
 
-aside.sidebar section.news article header {
+aside.sidebar section.news article summary h4,
+aside.sidebar section.news article summary time {
   color: #111;
   font-style: normal;
   width: 90px;
@@ -277,17 +275,45 @@ aside.sidebar section.news article header {
   top: -15px;
   left: 13px;
 }
-  aside.sidebar section.news article header time {
+  aside.sidebar section.news article summary time {
     color: #444;
     font-style: italic;
     font-size: 10px;
-    position: relative;
-    left: -13px;
   }
   aside.sidebar section.news article details p {
     position: relative;
     top: -10px;
   }
+
+/* alternate style for mozilla since it doesn't support details tag */
+@-moz-document url-prefix() {
+  aside.sidebar section.news article details {
+    padding-bottom: 30px;
+  }
+  aside.sidebar section.news article details summary {
+    display: block;
+    padding-bottom: 15px;
+  }
+  aside.sidebar section.news article summary h4,
+  aside.sidebar section.news article summary time {
+    color: #111;
+    font-style: normal;
+    width: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  aside.sidebar section.news article summary time {
+    color: #444;
+    font-style: italic;
+    font-size: 10px;
+  }
+  aside.sidebar section.news article details p {
+    position: relative;
+    top: 0;
+    width: 95%;
+  }
+}
 
 /* did you know? */
 
@@ -342,9 +368,8 @@ footer.global nav.secondary ul.site a {
   margin-left: 10px;
   text-decoration: none;
 }
-footer.global nav.secondary ul.site a:hover {
-  color: #bd0505;
-}
+  footer.global nav.secondary ul.site a:hover { color: #bd0505 }
+
 footer.global nav.secondary ul.site li  + li a:after {
   content: '/';
   padding-left: 10px;

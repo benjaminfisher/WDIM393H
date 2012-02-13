@@ -9,18 +9,15 @@
 		border-top: none;
 		padding-top: 0;
 	}
-	#index section#content article:last-child {
-		border-bottom: none;
-	}
+	#index section#content article:last-child { border-bottom: none }
+
 #index section#content article h2 {
-	font: normal 16px/1 'Arvo', serif;
+	font: normal 20px/1 'Arvo', serif;
 	padding-bottom: 20px;
 	text-shadow: 0 1px 0 #fff;
 }
 
 /* featured project */
-
-#index section#content article#featured {}
 
 #index section#content article#featured figure {
 	background: rgba(255,255,255,.5);
@@ -87,7 +84,6 @@
 	line-height: 21px;
 	padding-bottom: 20px;
 }
-
 #index section#content article#featured section.info a.more {
 	color: #bd0505;
 	font: italic 13px/1 'PT Sans', sans-serif;
@@ -121,25 +117,15 @@
 	font: normal 24px 'PT Sans', sans-serif;
 	padding-bottom: 15px;
 }
-
-#index section#content article#tout section.column {
-	float: left;
-}
-
-#index section#content article#tout section.column.left {
-	width: 60%;
-}
-
-#index section#content article#tout section.column.right {
-	width: 40%;
-}
+#index section#content article#tout section.column         { float: left }
+#index section#content article#tout section.column.left    { width: 60% }
+#index section#content article#tout section.column.right   { width: 40% }
 #index section#content article#tout section.column.right p {
 	color: rgba(0,0,0,.5);
 	font: normal 27px/30px 'PT Sans', sans-serif;
 	padding-bottom: 1em;
 	width: 285px;
 }
-
 #index section#content article#tout ul {
 	color: rgba(0,0,0,.75);
 	font: italic 1.3em/1.7em 'PT Sans', sans-serif;
@@ -147,7 +133,7 @@
 	margin: 0 0 1.5em 2.5em;
 	text-shadow: 0 1px 0 #fff;
 }
-#index section#content article#tout ul li span {
+#index section#content article#tout ul li span:not(:nth-child(2)) {
 	font-weight: bold;
 	background: rgba(0,0,0,.1);
 	border-width: 1px;
@@ -163,11 +149,11 @@
 #index section#content article#tout ul li span:nth-child(1) {
 	color: rgba(0,130,70,.6);
 }
-#index section#content article#tout ul li span:nth-child(2) {
+#index section#content article#tout ul li span:nth-child(3) {
 	color: rgba(0,100,200,.6);
 }
 
-/* fancy button */
+/* fancy quote button */
 
 #index button#quote {
 background: #ace;

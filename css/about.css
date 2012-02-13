@@ -1,27 +1,12 @@
-#april{
-	width: 810px;
-}
-
-#benjamin{
-	width: 810px;
-}
-
-#charlie{
-	width: 810px;
-}
-
-#nate{
-	width: 810px;
-}
-
-.group h1{
-	font-size: 20px;
+section#content h1 {
 	color: #000;
+	font: 20px 'Arvo', serif;
 	margin: 0 0 20px;
+	text-shadow: 0 1px 0 #fff;
 }
 
 
-#main .group h2{
+#main .group h2 {
 	font-size: 20px;
 	color: #bd0304;
 	margin: 0 0 10px 20px;
@@ -138,12 +123,12 @@ blockquote{
 		
 }
 
-li a:hover{
+#content li a:hover{
 	color: rgba(189,3,4,.8);
-    -webkit-transform: scale(1.1,1.1);
-    -moz-transform: scale(1.1,1.1);
-    -o-transform: scale(1.1,1.1);
-    transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
 }
 a{
 	text-decoration: none;
