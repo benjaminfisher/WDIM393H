@@ -24,6 +24,10 @@
     * Pulled Nates changes from the master to gh-pages branch
     * Pushed the update to gh-pages remote. Current version of the project is live.
 
+    *April
+	*Formatted the About page (changed HTML5 and CSS3)
+	*Validated
+
 ----------
 
 
