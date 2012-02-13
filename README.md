@@ -25,6 +25,8 @@
   * Benjamin
     * Pulled Nates changes from the master to gh-pages branch
     * Pushed the update to gh-pages remote. Current version of the project is live.
+    * Changes to HTML and styles for the portfolio section
+      * Added ul.tags styling - just add a ul with class=tags to the portfolio articles
 
   * April
     * Formatted the About page (changed HTML5 and CSS3)
