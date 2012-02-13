@@ -5,14 +5,10 @@ html {
               url(../img/bg.png) 0 0 repeat;
   background-size: cover, auto;
   font-family: 'PT Sans', sans-serif;
+
   -webkit-animation-name: 'docload';
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-}
-@-webkit-keyframes docload {
-  0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
-  30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
-  100% { opacity: 1; -webkit-transform: scale(1.0) rotate(0deg); }
 }
 
 body {
@@ -21,23 +17,20 @@ body {
   width: 950px;
 }
 
+/* totally sweet webkit keyframe animation */
+
+@-webkit-keyframes docload {
+  0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  100% { opacity: 1; -webkit-transform: scale(1.0) rotate(0deg); }
+}
+
 /* helpers */
 
-/* nicholas gallagher's micro-clearfix */
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-/* effects */
-
+/* nicholas gallagher's tiny clearfix */
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both }
+.group { zoom: 1 } /* For IE 6/7 (trigger hasLayout) */
 
 /* logo & title */
 
@@ -121,6 +114,7 @@ header.global nav.primary ul.site li a {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  bottom: 1px;
   color: #fff;
   display: block;
   font-size: 15px;
@@ -151,21 +145,14 @@ header.global nav.primary ul.site li a {
     background: linear-gradient(bottom, #800, #c11);
     -webkit-box-shadow: 0 1px 0 #600,
                  0 2px 0 #500,
-                 0 3px 0 #400,
-                 0 3px 2px rgba(0,0,0,.4),
-                 0 6px 1px rgba(0,0,0,.1);
+                 0 3px 2px rgba(0,0,0,.4);
     -moz-box-shadow:  0 1px 0 #600,
                  0 2px 0 #500,
-                 0 3px 0 #400,
-                 0 3px 2px rgba(0,0,0,.4),
-                 0 6px 1px rgba(0,0,0,.1);
+                 0 3px 2px rgba(0,0,0,.4);
     box-shadow:  0 1px 0 #600,
                  0 2px 0 #500,
-                 0 3px 0 #400,
-                 0 3px 2px rgba(0,0,0,.4),
-                 0 6px 1px rgba(0,0,0,.1);
+                 0 3px 2px rgba(0,0,0,.4);
     text-shadow: 0 1px 0 #300;
-    bottom: 1px;
   }
   header.global nav.primary ul.site a:active,
   header.global nav.primary ul.site li a.current,
@@ -225,20 +212,24 @@ header.global section.tagline {
   padding: 15px 0;
 }
 header.global section.tagline p {
+  bottom: 0;
   color: rgba(0,0,0,.5);
   font: normal 24px 'PT Sans', sans-serif;
+  position: relative;
   text-shadow: 0 1px 0 #fff;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
   header.global section.tagline p:hover {
+    bottom: 7px;
     color: rgba(0,0,0,.8);
-    -webkit-transform: scale(1.02,1.02);
-    -moz-transform: scale(1.02,1.02);
-    -o-transform: scale(1.02,1.02);
-    transform: scale(1.02,1.02);
+    text-shadow: 0 5px 1px rgba(0,0,0,.15);
+    -webkit-transform: scale(1.01,1.01);
+    -moz-transform: scale(1.01,1.01);
+    -o-transform: scale(1.01,1.01);
+    transform: scale(1.01,1.01);
   }
 
 /* sidebar */
@@ -315,7 +306,7 @@ aside.sidebar section.did-you-know h3 {
 section#content {
   border-top: 1px solid rgba(255,255,255,.5);
   float: right;
-  padding-top: 50px;
+  padding-top: 40px;
   max-width: 770px;
 }
 
@@ -387,27 +378,18 @@ progress {
 }
 
 /* Polyfill */
-progress[role]:after {
-  background-image: none; /* removes default background from polyfill */
-}
-
-progress[role] strong {
-  display: none;
-}
+progress[role]:after { background-image: none } /* removes default background from polyfill */
+progress[role] strong { display: none }
 
 /*
  * Background of the progress bar background
  */
 
 /* Firefox and Polyfill */
-progress {
-  background: #ddd !important; /* !important only needed in polyfill */
-}
+progress { background: #ddd !important } /* !important only needed in polyfill */
 
 /* Chrome */
-progress::-webkit-progress-bar {
-  background: #ddd;
-}
+progress::-webkit-progress-bar { background: #ddd }
 
 /*
  * Background of the progress bar value 
@@ -434,7 +416,7 @@ progress::-moz-progress-bar {
 /* Chrome */
 progress::-webkit-progress-value {
   border-radius: 5px;
-  background: rgba(200,20,20,.7);
+  background: hsla(0,82%,43%,.7);
   background-image: -webkit-gradient(linear, 0 0, 100% 100%,
                     color-stop(.25, rgba(255, 255, 255, .2)),
                     color-stop(.25, transparent), color-stop(.5, transparent),
