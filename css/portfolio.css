@@ -1,0 +1,53 @@
+/* fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Arvo:700|PT+Sans:400,400italic);
+
+section#content{
+	left: 12px;
+	position: relative;
+	width:780px;
+}
+section#content h1{
+	font: 20px 'Arvo', serif;
+	line-height: 2em;
+}
+
+section#content article h3{
+	color: red;
+	font: 20px/40px 'PT Sans', Georgia, sans-serif;
+}
+
+section#content article h4{
+	color:#b0b0b0;
+	font: 14px/40px 'PT Sans', Georgia, sans-serif;
+}
+
+section#content article{
+	float: left;
+	height: 325px;
+	margin-right:20px;
+	width: 240px;
+}
+
+	section#content article:nth-child[3n+3]{
+		margin-rigth:0px;
+	}
+
+section#content article figure img{
+	height: 145px;
+	width: 240px;
+}
+
+section#content article ul.tags{
+	list-style-type: none;
+}
+
+section#content article ul.tags li{
+	background-color:#b0b0b0;
+	color:white;
+	display:inline-block;
+	float:left;
+	font-size:14px;
+	margin: 1px 5px;
+	padding: 0 5px;
+}
