@@ -120,4 +120,4 @@ Using ```-webkit-keyframes``` for page load effect.
 
 Starts slightly scaled and rotated with zero opacity, remains the same until 30% through the animation for delay, then rotates and scales down to normal while returning to full opacity at the end. Animation lasts 1 second (```-webkit-animation-duration: 1s;```) and only occurs once (```-webkit-animation-iteration-count: 1;```)
 
-All fonts used are google fonts using a CSS3 ```@import``` method. Title font is 'Arvo' (serif), body copy is 'PT Sans' (sans-serif).
+All fonts used are google fonts using the ```@import``` method. Title font is 'Arvo' (serif), body copy is 'PT Sans' (sans-serif).
