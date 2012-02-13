@@ -1,6 +1,33 @@
 # WDIM393H - Group Project Repo
 
-## Week 3 Homework - Markup
+## Week 4 + 5 Homework - Style (CSS3)
+
+  * Nate
+    * Reset master branch, rebuilding from scratch
+    * Replaced non-web fonts with google font imports
+      * Alexandria -> Arvo
+      * Ideal Sans -> PT Sans
+    * Reorganized content
+      * News from Index -> Inside Global Sidebar
+      * Tagline from Charlie's Comp -> Inside Global Header
+      * Progress Bar -> Inside Global Footer
+      * Temporarily removed video and audio
+    * New Design
+      * Implemented layout based on Charlie's new design
+      * Normalized HTML conventions across pages
+      * Created page-specific CSS files for easy scoping
+    * CSS3
+      * Added style to progress bar with polyfill
+      * Added animation on document load using webkit keyframes
+
+  * Benjamin
+    * Pulled Nates changes from the master to gh-pages branch
+    * Pushed the update to gh-pages remote. Current version of the project is live.
+
+----------
+
+
+## Week 3 Homework - Markup (HTML5)
 
   * Nate
     * Added header and footer to April's about page

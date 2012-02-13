@@ -1,0 +1,511 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:700|PT+Sans:400,400italic);
+
+html {
+  background: url(../img/overlay.png) center top no-repeat,
+              url(../img/bg.png) 0 0 repeat;
+  background-size: cover, auto;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-animation-name: 'docload';
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes docload {
+  0% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  30% { opacity: 0; -webkit-transform: scale(1.1) rotate(1deg); }
+  100% { opacity: 1; -webkit-transform: scale(1.0) rotate(0deg); }
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 5px;
+  width: 950px;
+}
+
+/* helpers */
+
+/* nicholas gallagher's micro-clearfix */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* effects */
+
+
+/* logo & title */
+
+header.global { padding-top: 25px }
+header.global hgroup {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  float: left;
+  padding-bottom: 50px;
+  width: 130px;
+}
+
+header.global h1 a {
+  color: #000;
+  background: url(../img/logo.png) 0 0 no-repeat;
+  display: block;
+  font: normal 24px/1 'Arvo', serif;
+  padding-top: 114px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+}
+  header.global h1 a:hover {
+    color: #bd0505;
+  }
+    header.global h1 a:active {
+      color: #d00;
+    }
+
+/* good/evil switch */
+
+header.global h2 {
+  color: #575757;
+  font: normal 11px/1 'Arvo', serif;
+  padding: 10px 0 0 11px;
+}
+  header.global h2 span {
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding-top: 3px;
+  }
+    header.global h2:active span { color: #bd0505 }
+    header.global h2 span.active { color: #bd0505 }
+    header.global h2:active span.active { color: #575757 }
+    header.global h2 span.switch {
+      background: url(../img/switch.png) center 0 no-repeat;
+      height: 16px;
+      margin: 0 auto;
+      width: 52px;
+    }
+      header.global h2:active span.switch {
+        background-position: 0 -19px;
+      }
+
+/* primary nav */
+
+header.global nav.primary {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  height: 116px;
+  margin-left: 180px;
+}
+
+/* site links */
+
+header.global nav.primary ul.site {
+  float: left;
+  font: normal 14px/1 'Arvo', serif;
+  padding-top: 3px;
+  width: 50%;
+}
+header.global nav.primary ul.site li {
+  float: left;
+  margin-right: 10px;
+}
+header.global nav.primary ul.site li a {
+  background: #ace;
+  background: -webkit-linear-gradient(bottom, #777, #aaa);
+  background: -moz-linear-gradient(bottom, #777, #aaa);
+  background: -ms-linear-gradient(bottom, #777, #aaa);
+  background: linear-gradient(bottom, #777, #aaa);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 3px;
+  padding: 8px 13px 7px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #666;
+  -webkit-box-shadow:  0 1px 0 #666,
+              0 2px 0 #606060,
+              0 3px 2px rgba(0,0,0,.4);
+  -moz-box-shadow:  0 1px 0 #666,
+              0 2px 0 #606060,
+              0 3px 2px rgba(0,0,0,.4);
+  box-shadow: 0 1px 0 #666,
+              0 2px 0 #606060,
+              0 3px 2px rgba(0,0,0,.4);
+  -webkit-transition: all .1s linear 0s;
+  -moz-transition: all .1s linear 0s;
+  transition: all .1s linear 0s;
+}
+  header.global nav.primary ul.site a:hover {
+    background: #a00;
+    background: -webkit-linear-gradient(bottom, #800, #c11);
+    background: -moz-linear-gradient(bottom, #800, #c11);
+    background: -ms-linear-gradient(bottom, #800, #c11);
+    background: linear-gradient(bottom, #800, #c11);
+    -webkit-box-shadow: 0 1px 0 #600,
+                 0 2px 0 #500,
+                 0 3px 0 #400,
+                 0 3px 2px rgba(0,0,0,.4),
+                 0 6px 1px rgba(0,0,0,.1);
+    -moz-box-shadow:  0 1px 0 #600,
+                 0 2px 0 #500,
+                 0 3px 0 #400,
+                 0 3px 2px rgba(0,0,0,.4),
+                 0 6px 1px rgba(0,0,0,.1);
+    box-shadow:  0 1px 0 #600,
+                 0 2px 0 #500,
+                 0 3px 0 #400,
+                 0 3px 2px rgba(0,0,0,.4),
+                 0 6px 1px rgba(0,0,0,.1);
+    text-shadow: 0 1px 0 #300;
+    bottom: 1px;
+  }
+  header.global nav.primary ul.site a:active,
+  header.global nav.primary ul.site li a.current,
+  header.global nav.primary ul.site li a.current:hover,
+  header.global nav.primary ul.site li a.current:active {
+    background: #d00;
+    background: -webkit-linear-gradient(bottom, #a00, #e11);
+    background: -moz-linear-gradient(bottom, #a00, #e11);
+    background: -ms-linear-gradient(bottom, #a00, #e11);
+    background: linear-gradient(bottom, #a00, #e11);
+    -webkit-box-shadow: inset 0 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: inset 0 3px 2px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 2px rgba(0,0,0,.4);
+    padding-bottom: 9px;
+    bottom: 0;
+  }
+
+/* social links */
+
+header.global nav.primary ul.social {
+  float: right;
+  width: 50%;
+}
+header.global nav.primary ul.social a {
+  background: transparent url(../img/social_icons.png) 0 0 no-repeat;
+  display: block;
+  float: right;
+  height: 41px;
+  margin-left: 10px;
+  opacity: .5;
+  overflow: hidden;
+  text-indent: -9999em;
+  width: 41px;
+}
+  header.global nav.primary ul.social a:hover {
+    background-position: 0 bottom;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  header.global nav.primary ul.social a.twitter { background-position: 0 0 }
+  header.global nav.primary ul.social a.twitter:hover { background-position: 0 bottom }
+  header.global nav.primary ul.social a.gplus { background-position: -41px 0 }
+  header.global nav.primary ul.social a.gplus:hover { background-position: -41px bottom }
+  header.global nav.primary ul.social a.fb { background-position: -82px 0 }
+  header.global nav.primary ul.social a.fb:hover { background-position: -82px bottom }
+
+/* tagline */
+
+header.global section.tagline {
+  border-top: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-left: 180px;
+  padding: 15px 0;
+}
+header.global section.tagline{
+  color: rgba(0,0,0,.5);
+  font: normal 24px 'PT Sans', sans-serif;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+  header.global section.tagline:hover{
+    color: rgba(0,0,0,.8);
+    -webkit-transform: scale(1.02,1.02);
+    -moz-transform: scale(1.02,1.02);
+    -o-transform: scale(1.02,1.02);
+    transform: scale(1.02,1.02);
+  }
+
+/* sidebar */
+
+aside.sidebar {
+  float: left;
+  width: 130px;
+}
+
+aside.sidebar section {
+  color: #444;
+  font: italic 13px/1.3 'PT Sans', sans-serif;
+  min-height: 150px;
+  padding: 15px 30px 0px 0;
+  position: relative;
+}
+
+aside.sidebar section h3 {
+  color: #999;
+  font-size: 20px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* news */
+
+aside.sidebar section.news {
+  border-top: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+aside.sidebar section.news h3 {
+  position: absolute;
+  top: 50px;
+  right: -39px;
+}
+
+aside.sidebar section.news article header {
+  color: #111;
+  font-style: normal;
+  width: 90px;
+  position: relative;
+  top: -15px;
+  left: 13px;
+}
+  aside.sidebar section.news article header time {
+    color: #444;
+    font-style: italic;
+    font-size: 10px;
+    position: relative;
+    left: -13px;
+  }
+  aside.sidebar section.news article details p {
+    position: relative;
+    top: -10px;
+  }
+
+/* did you know? */
+
+aside.sidebar section.did-you-know {
+  border-top: 1px solid rgba(255,255,255,.5);
+}
+
+aside.sidebar section.did-you-know h3 {
+  position: absolute;
+  top: 63px;
+  right: -53px;
+}
+
+/* content */
+
+section#content {
+  border-top: 1px solid rgba(255,255,255,.5);
+  float: right;
+  padding-top: 50px;
+  max-width: 770px;
+}
+
+/* footer */
+
+footer.global {
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin-left: 180px;
+}
+
+footer.global section.group {
+  border-top: 1px solid rgba(255,255,255,.5);
+  font: italic 12px/1 'PT Sans', sans-serif;
+  padding: 10px 0 60px
+}
+
+footer.global p.legal {
+  color: #bd0505;
+  float: left;
+  width: 33%;
+}
+
+/* secondary nav */
+
+footer.global nav.secondary {
+  float: right;
+  width: 33%;
+}
+footer.global nav.secondary ul.site a {
+  color: #000;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  text-decoration: none;
+}
+footer.global nav.secondary ul.site a:hover {
+  color: #bd0505;
+}
+footer.global nav.secondary ul.site li  + li a:after {
+  content: '/';
+  padding-left: 10px;
+}
+
+/* progress bar */
+
+footer.global section.progress {
+  float: left;
+  padding: 0 5px;
+}
+footer.global section.progress p.title {
+  display: inline;
+  padding: 0 7px 0 0;
+}
+
+/* All HTML5 progress enabled browsers */
+progress {
+  /* Turns off styling - not usually needed, but good to know. */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  /* gets rid of default border in Firefox and Opera. */
+  border-radius: 7px;
+  padding: 2px;
+  
+  /* Dimensions */
+  width: 150px;
+  height: 12px;
+}
+
+/* Polyfill */
+progress[role]:after {
+  background-image: none; /* removes default background from polyfill */
+}
+
+progress[role] strong {
+  display: none;
+}
+
+/*
+ * Background of the progress bar background
+ */
+
+/* Firefox and Polyfill */
+progress {
+  background: #ddd !important; /* !important only needed in polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+  background: #ddd;
+}
+
+/*
+ * Background of the progress bar value 
+ */
+
+/* Firefox */
+progress::-moz-progress-bar { 
+  border-radius: 5px;
+  background: rgba(200,20,20,.7);
+  background-image: -moz-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  -moz-box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+                   inset 0 -1px 4px rgba(0,0,0,.3);
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+  border-radius: 5px;
+  background: rgba(200,20,20,.7);
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+                    color-stop(.25, rgba(255, 255, 255, .2)),
+                    color-stop(.25, transparent), color-stop(.5, transparent),
+                    color-stop(.5, rgba(255, 255, 255, .2)),
+                    color-stop(.75, rgba(255, 255, 255, .2)),
+                    color-stop(.75, transparent), to(transparent)
+                    );
+  background-image: -webkit-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  -webkit-box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+                      inset 0 -1px 4px rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 3px rgba(255,255,255,.7),
+              inset 0 -1px 4px rgba(0,0,0,.3);
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+                    color-stop(.25, rgba(255, 255, 255, .2)),
+                    color-stop(.25, transparent), color-stop(.5, transparent),
+                    color-stop(.5, rgba(255, 255, 255, .2)),
+                    color-stop(.75, rgba(255, 255, 255, .2)),
+                    color-stop(.75, transparent), to(transparent)
+                    );
+  background-image: -webkit-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -moz-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -ms-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+  background-image: -o-linear-gradient(
+                    -45deg,
+                    rgba(255, 255, 255, .2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .2) 50%,
+                    rgba(255, 255, 255, .2) 75%,
+                    transparent 75%,
+                    transparent
+                    );
+}
