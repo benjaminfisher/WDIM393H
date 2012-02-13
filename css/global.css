@@ -105,6 +105,7 @@ header.global nav.primary {
 header.global nav.primary ul.site {
   float: left;
   font: normal 14px/1 'Arvo', serif;
+  margin-top: 55px;
   padding-top: 3px;
   width: 50%;
 }
