@@ -38,9 +38,11 @@ body {
 /* logo & title */
 
 header.global { padding-top: 25px }
+
 header.global hgroup {
   border-bottom: 1px solid rgba(0,0,0,.1);
   float: left;
+  margin-top:30px;
   padding-bottom: 50px;
   width: 130px;
 }
@@ -85,7 +87,6 @@ header.global h2 {
 /* primary nav */
 
 header.global nav.primary {
-  border-bottom: 1px solid rgba(0,0,0,.1);
   position:absolute;
   top:0px;
 }
@@ -200,41 +201,14 @@ header.global nav.primary ul.social a {
   header.global nav.primary ul.social a.fb            { background-position: -82px 0 }
   header.global nav.primary ul.social a.fb:hover      { background-position: -82px bottom }
 
-/* tagline */
 
-header.global section.tagline {
-  border-top: 1px solid rgba(255,255,255,.5);
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  margin-left: 180px;
-  padding: 15px 0;
-}
-header.global section.tagline p {
-  bottom: 0;
-  color: rgba(0,0,0,.5);
-  font: normal 24px 'PT Sans', sans-serif;
-  position: relative;
-  text-shadow: 0 1px 0 #fff;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-  header.global section.tagline p:hover {
-    bottom: 7px;
-    color: rgba(0,0,0,.8);
-    text-shadow: 0 5px 1px rgba(0,0,0,.15);
-    -webkit-transform: scale(1.01,1.01);
-    -moz-transform: scale(1.01,1.01);
-    -o-transform: scale(1.01,1.01);
-    transform: scale(1.01,1.01);
-  }
 
 /* Remove aside for mobile devices */
 aside{
 	display:none;
 }
 
-
+header section.tagline{ display: none; }
 /* content */
 
 section#content {
@@ -445,6 +419,40 @@ and (min-width : 768px) {
 	  float: right;
 	  width: 50%;
 	}
+	
+	header.global hgroup {
+		margin-top:0px;
+	}
+	
+	/* tagline */
+
+	header.global section.tagline {
+	  border-top: 1px solid rgba(255,255,255,.5);
+	  border-bottom: 1px solid rgba(0,0,0,.1);
+	  display: block;
+	  margin-left: 180px;
+	  padding: 15px 0;
+	}
+	header.global section.tagline p {
+	  bottom: 0;
+	  color: rgba(0,0,0,.5);
+	  font: normal 24px 'PT Sans', sans-serif;
+	  position: relative;
+	  text-shadow: 0 1px 0 #fff;
+	  -webkit-transition: all .3s ease-in-out;
+	  -moz-transition: all .3s ease-in-out;
+	  -o-transition: all .3s ease-in-out;
+	  transition: all .3s ease-in-out;
+	}
+	  header.global section.tagline p:hover {
+	    bottom: 7px;
+	    color: rgba(0,0,0,.8);
+	    text-shadow: 0 5px 1px rgba(0,0,0,.15);
+	    -webkit-transform: scale(1.01,1.01);
+	    -moz-transform: scale(1.01,1.01);
+	    -o-transform: scale(1.01,1.01);
+	    transform: scale(1.01,1.01);
+	  }
 	
 	/* main content */
 	section#content{
