@@ -25,6 +25,8 @@
   * Benjamin
     * Pulled Nates changes from the master to gh-pages branch
     * Pushed the update to gh-pages remote. Current version of the project is live.
+    * Changes to HTML and styles for the portfolio section
+      * Added ul.tags styling - just add a ul with class=tags to the portfolio articles
      
     -----
 	Revisions from Week 4 that have been overwritten
@@ -59,8 +61,7 @@
     * Pushed to gh-pages
 
   * Benjamin
-  	* Minor corrections to the video and audio tags
-  	* Added my about and portfolio sections
-  	* Cleaned up the About and Portfolio pages, removing duplicate headers and footers
-  	* Removed some empty content sections
-
+    * Minor corrections to the video and audio tags
+    * Added my about and portfolio sections
+    * Cleaned up the About and Portfolio pages, removing duplicate headers and footers
+    * Removed some empty content sections
