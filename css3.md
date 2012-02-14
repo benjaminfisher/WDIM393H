@@ -97,7 +97,7 @@ Transitions used for nearly all transforms and hover states. See primary navigat
 
 ## Media Queries
 
-Not yet implemented.
+Media querie for mobile devices removes aside and social links, and pushs main nav to the top of the screen.
 
 ---
 
