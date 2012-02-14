@@ -38,6 +38,8 @@ Thumbs.db
 *.class
 *.pyc
 *.pyo
-.project/
-.sass-cache/
-.settings/
+.project
+.settings
+.sass-cache
+.project
+backup
