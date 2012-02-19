@@ -137,8 +137,10 @@ header.global nav.primary ul.site li a {
 }
 
 /** Fix for browsers that do not support border radius **/
-.no-borderradius header.global nav.primary ul.site li a {
+.no-borderradius header.global nav.primary ul.site li a,
+.no-cssgradients header.global nav.primary ul.site li a {
 	behavior: url(scripts/PIE.htc);
+	-pie-background: linear-gradient(bottom, #777, #aaa);
 }
 
 
@@ -174,6 +176,14 @@ header.global nav.primary ul.site li a {
     padding-bottom: 9px;
     bottom: 0;
   }
+  
+  .no-cssgradients header.global nav.primary ul.site a:active,
+  .no-cssgradients header.global nav.primary ul.site li a.current,
+  .no-cssgradients header.global nav.primary ul.site li a.current:hover,
+  .no-cssgradients header.global nav.primary ul.site li a.current:active {
+  	-pie-background:linear-gradient(bottom, #a00, #e11);
+  }
+  
 
 /* social links */
 
