@@ -135,6 +135,13 @@ header.global nav.primary ul.site li a {
   -moz-transition: all .1s linear 0s;
   transition: all .1s linear 0s;
 }
+
+/** Fix for browsers that do not support border radius **/
+.no-borderradius header.global nav.primary ul.site li a {
+	behavior: url(scripts/PIE.htc);
+}
+
+
   header.global nav.primary ul.site a:hover {
     background: #a00;
     background: -webkit-linear-gradient(bottom, #800, #c11);
