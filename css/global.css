@@ -546,36 +546,6 @@ and (min-width : 768px) {
 	    position: relative;
 	  }
 	
-	/* alternate style for mozilla since it doesn't support details tag */
-	@-moz-document url-prefix() {
-	  aside.sidebar section.news article details {
-	    padding-bottom: 30px;
-	  }
-	  aside.sidebar section.news article details summary {
-	    display: block;
-	    padding-bottom: 15px;
-	  }
-	  aside.sidebar section.news article summary strong,
-	  aside.sidebar section.news article summary time {
-	    color: #111;
-	    font-style: normal;
-	    width: 90px;
-	    position: relative;
-	    top: 0;
-	    left: 0;
-	  }
-	  aside.sidebar section.news article summary time {
-	    color: #444;
-	    font-style: italic;
-	    font-size: 10px;
-	  }
-	  aside.sidebar section.news article details p {
-	    position: relative;
-	    top: 0;
-	    width: 95%;
-	  }
-	}
-	
 	/* did you know? */
 	
 	aside.sidebar section.did-you-know {

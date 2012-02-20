@@ -13,6 +13,11 @@ that do not support CSS gradients.
 _see comments in global.css and index.css_
 
 ## Progress Polyfill ##
-Used modernizer.load method to target browsers that
+Used modernizr.load method to target browsers that
 do not support the <progress> tag and provide partial support
+_see feature-test.js_
+
+## Details Polyfill ##
+Used modernizr.load method to target browsers that
+do not support the <summery> tag and provide a jQuery based solution
 _see feature-test.js_

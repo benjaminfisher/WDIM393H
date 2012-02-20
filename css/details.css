@@ -1,0 +1,23 @@
+details, summary {
+    display: block;
+}
+summary {
+    cursor: pointer;
+}
+summary:hover, summary:focus {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+.no-details details > * {
+    display: none;
+}
+.no-details details summary:before {
+    content: "► ";
+    float: left;
+    width: 20px;
+}
+.no-details details.open summary:before {
+    content: "▼ ";
+}
+.no-details details summary {
+    display: block;
+}
