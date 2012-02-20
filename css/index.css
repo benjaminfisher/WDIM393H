@@ -223,7 +223,7 @@ transition: all .1s linear 0s;
 /** Fix for browsers that don't support CSS Gradients or rounded corners**/
 .no-roundedcorners #index button#quote,
 .no-cssgradients #index button#quote {
-	behavior: url(scripts/PIE.htc);
+	behavior: url(scripts/PIE.php);
 	-pie-background: linear-gradient(bottom, #777, #aaa);
 }
 

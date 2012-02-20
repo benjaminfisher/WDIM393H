@@ -139,7 +139,7 @@ header.global nav.primary ul.site li a {
 /** Fix for browsers that do not support border radius **/
 .no-borderradius header.global nav.primary ul.site li a,
 .no-cssgradients header.global nav.primary ul.site li a {
-	behavior: url(scripts/PIE.htc);
+	behavior: url(scripts/PIE.php);
 	-pie-background: linear-gradient(bottom, #777, #aaa);
 }
 
