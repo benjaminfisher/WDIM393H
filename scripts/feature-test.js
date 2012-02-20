@@ -1,6 +1,6 @@
 $(function(){
 	Modernizr.load({
 		test: Modernizr.cssgradients,
-		nope: 'progress-polyfill.min.js'
+		nope: 'scripts/progress-polyfill.min.js'
 	})
 });
