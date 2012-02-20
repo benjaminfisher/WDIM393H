@@ -517,7 +517,7 @@ and (min-width : 768px) {
 	  right: -39px;
 	}
 	
-	aside.sidebar section.news article summary h4,
+	aside.sidebar section.news article summary strong,
 	aside.sidebar section.news article summary time {
 	  color: #111;
 	  font-style: normal;
@@ -545,7 +545,7 @@ and (min-width : 768px) {
 	    display: block;
 	    padding-bottom: 15px;
 	  }
-	  aside.sidebar section.news article summary h4,
+	  aside.sidebar section.news article summary strong,
 	  aside.sidebar section.news article summary time {
 	    color: #111;
 	    font-style: normal;
