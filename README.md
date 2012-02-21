@@ -1,5 +1,10 @@
 # WDIM393H - Group Project Repo
 
+## Week 6
+
+  * Nate
+    * Added tags for portfolio projects
+
 ## Week 4 + 5 Homework - Style (CSS3)
 
   * Nate
@@ -27,15 +32,17 @@
     * Pushed the update to gh-pages remote. Current version of the project is live.
     * Changes to HTML and styles for the portfolio section
       * Added ul.tags styling - just add a ul with class=tags to the portfolio articles
-     
-    -----
-	Revisions from Week 4 that have been overwritten
-  	* Created dev branch
-  	* Installed head.js (http://headjs.com/)
-    * Installed Compass with SASS (http://compass-style.org/)
-      * SASS uses the same syntax as Less but has more options
-      * Install Compass gem which includes SASS and the Compass framework
-	* Started on header styles
+
+----------
+
+Revisions from Week 4 that have been overwritten
+
+  * Created dev branch
+  * Installed head.js (http://headjs.com/)
+  * Installed Compass with SASS (http://compass-style.org/)
+    * SASS uses the same syntax as Less but has more options
+    * Install Compass gem which includes SASS and the Compass framework
+  * Started on header styles
     * Minor corrections to the video and audio tags
     * Added my about and portfolio sections
     * Cleaned up the About and Portfolio pages, removing duplicate headers and footers
@@ -46,7 +53,6 @@
     * Validated
 
 ----------
-
 
 ## Week 3 Homework - Markup (HTML5)
 
