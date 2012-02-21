@@ -1,49 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en-US" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<title>Pirate Monkeys | About</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/global.css">
-	<link rel="stylesheet" href="css/about.css">
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="scripts/modernizr.js"></script>
-	<script src="scripts/feature-test.js"></script>
-	
-</head>
-<body id="about">
-
-	<!-- global header -->
-
-	<header class="global">
-		<hgroup class="group">
-			<h1><a href="index.html">Pirate Monkeys</a></h1>
-			<h2 class="group">
-				<span class="active">Good</span>
-				<span class="switch"></span>
-				<span>Evil</span>
-			</h2>
-		</hgroup>
-
-		<nav class="primary">
-			<ul class="site group">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html" class="current">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-			</ul>
-
-			<ul class="social group">
-				<li><a class="fb" href="">Facebook</a></li>
-				<li><a class="gplus" href="">Google+</a></li>
-				<li><a class="twitter" href="">Twitter</a></li>
-			</ul>
-		</nav>
-
-		<section class="tagline">
-			<p>Half pirate, half monkey, all awesome. Our swashbuckling team of	design and coding monkeys will sail the seven seas to create the site you need.</p>
-		</section>
-	</header>
+<?php include 'header.php'; ?>
 
 	<!-- page content -->
 	<section id="main" class="group">
@@ -64,7 +19,7 @@
 				
 					<ul class="elements1">
 						<li>Web Design</li>
-							<li>Front-end Development</li>  
+							<li>Front-end Development</li> 
 								<li>SQL DBMS</li>
                                 	
 						<li>Photoshop</li>            
@@ -82,7 +37,7 @@
 						
 						<ul class="elements4">
 							<li><a href="portfolio.html">Portfolio Site</a></li>
-							<li><a href="interview_april.html">Interview</a></li>
+							<li><a href="interview_april.php">Interview</a></li>
 						</ul>
 					</section>					
 			</article>
@@ -118,7 +73,7 @@
 								
 								<ul class="elements4">
 									<li><a href="portfolio.html">Portfolio Site</a></li>
-									<li><a href="interview_benjamin.html">Interview</a></li>
+									<li><a href="interview_benjamin.php">Interview</a></li>
 								</ul>
 						</section>
 			</article>
@@ -154,7 +109,7 @@
 														
 														<ul class="elements4">
 															<li><a href="portfolio.html">Portfolio Site</a></li>
-															<li><a href="interview_charlie.html">Interview</a></li>
+															<li><a href="interview_charlie.php">Interview</a></li>
 														</ul>
 																										 
 														
@@ -201,7 +156,7 @@
 
 	<ul class="elements4">
 		<li><a href="http://github.com/ngoldman">Github profile</a></li>
-		<li><a href="interview_nate.html">Interview</a></li>
+		<li><a href="interview_nate.php">Interview</a></li>
 	</ul>
 </section>
 
@@ -251,25 +206,4 @@
 		</aside>
 	</section>
 
-	<!-- global footer -->
-
-	<footer class="global">
-		<section class="group">
-			<p class="legal">&copy;2012 Pirate Monkeys</p>
-
-			<section class="progress">
-				<p class="title">Site Progress:</p>
-				<progress max="100" value="50">50%</progress>
-			</section>
-
-			<nav class="secondary">
-				<ul class="site">
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="about.html" class="current">About</a></li>
-					<li><a href="index.html">Home</a></li>
-				</ul>
-			</nav>
-		</section>
-	</footer>
-</body>
-</html>
+<?php include 'footer.php'; ?>
