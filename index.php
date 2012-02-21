@@ -21,7 +21,7 @@
 						sparge. tulip glass sparge cask conditioned.
 					</p>
 
-					<a class="more" href="portfolio.html">More Projects</a>
+					<a class="more" href="portfolio.php">More Projects</a>
 				</section>
 			</article>
 
