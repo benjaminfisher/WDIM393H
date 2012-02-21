@@ -11,9 +11,9 @@
 
 			<nav class="secondary">
 				<ul class="site">
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="index.php" class="current">Home</a></li>
 				</ul>
 			</nav>
 		</section>
