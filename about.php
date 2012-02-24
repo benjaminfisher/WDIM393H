@@ -32,14 +32,10 @@
 					</ul>
 				
 					<ul class="elements3">
-						<li class="box">&nbsp;</li>
-						</ul>
-						
-						<ul class="elements4">
-							<li><a href="portfolio.html">Portfolio Site</a></li>
-							<li><a href="interview_april.php">Interview</a></li>
-						</ul>
-					</section>					
+						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
+						<li><a href="interview_april.php"><div class="box">&nbsp;</div>Interview</a></li>
+					</ul>
+				</section>					
 			</article>
 <!-- end #april -->
 	
@@ -67,14 +63,10 @@
 									<li>and more stuff</li>
 							</ul>
 						
-							<ul class="elements3">
-								<li class="box">&nbsp;</li>
-								</ul>
-								
-								<ul class="elements4">
-									<li><a href="portfolio.html">Portfolio Site</a></li>
-									<li><a href="interview_benjamin.php">Interview</a></li>
-								</ul>
+					<ul class="elements3">
+						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
+						<li><a href="interview_benjamin.php"><div class="box">&nbsp;</div>Interview</a></li>
+					</ul>
 						</section>
 			</article>
 <!-- end #benjamin -->
@@ -103,14 +95,10 @@
 															<li>and more stuff</li>
 													</ul>
 												
-													<ul class="elements3">
-														<li class="box">&nbsp;</li>
-														</ul>
-														
-														<ul class="elements4">
-															<li><a href="portfolio.html">Portfolio Site</a></li>
-															<li><a href="interview_charlie.php">Interview</a></li>
-														</ul>
+					<ul class="elements3">
+						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
+						<li><a href="interview_charlie.php"><div class="box">&nbsp;</div>Interview</a></li>
+					</ul>
 																										 
 														
 									</section>         
@@ -150,14 +138,10 @@
 		<li>Node.js</li>
 	</ul>
 
-	<ul class="elements3">
-		<li class="box">&nbsp;</li>
-	</ul>
-
-	<ul class="elements4">
-		<li><a href="http://github.com/ngoldman">Github profile</a></li>
-		<li><a href="interview_nate.php">Interview</a></li>
-	</ul>
+					<ul class="elements3">
+						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
+						<li><a href="interview_nate.php"><div class="box">&nbsp;</div>Interview</a></li>
+					</ul>
 </section>
 
 			</article>
