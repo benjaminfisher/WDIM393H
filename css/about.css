@@ -76,6 +76,9 @@ blockquote{
 	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
+	padding: 5px;
+	float: left;
+	margin-right: 10px;
 }
 
 .elements3{
@@ -84,23 +87,10 @@ blockquote{
 
 .elements3 li{
 	color: #bd0304;
-	font-size: 12px;
-	float: left;
-	margin: 0 10px 10px 0;
-	padding: 5px;
-}
-
-.elements4{
-	float: left;
-}
-
-.elements4 li{
-	color: #bd0304;
 	font-size: 14px;
 	float: left;
 	font-style: italic;
-	margin: 0 10px 10px 0;
-	
+	margin: 0 20px 10px 0;
 }
 
 #april{
