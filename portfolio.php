@@ -1,4 +1,7 @@
-<?php include 'header.php' ?>
+<?php 
+$section = 'portfolio';
+include 'header.php'; 
+?>
 
 	<!-- page content -->
 

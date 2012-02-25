@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php 
+$section = 'index';
+include 'header.php'; ?>
 
 	<!-- page content -->
 

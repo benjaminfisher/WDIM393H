@@ -1,9 +1,3 @@
-<?php $pageOn = basename($_SERVER['PHP_SELF']); 
-
-$styleSheet = substr($pageOn, 0, strrpos($pageOn, '.'));
-
-?>
-
 <!DOCTYPE HTML>
 <html lang="en-US" class="no-js">
 <head>
@@ -11,7 +5,7 @@ $styleSheet = substr($pageOn, 0, strrpos($pageOn, '.'));
 	<title>Pirate Monkeys</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/global.css">
-	<link rel="stylesheet" href="css/<?php echo $styleSheet ?>.css">
+	<link rel="stylesheet" href="css/<?php echo $section ?>.css">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="scripts/modernizr.js"></script>
@@ -34,9 +28,9 @@ $styleSheet = substr($pageOn, 0, strrpos($pageOn, '.'));
 
 		<nav class="primary">
 			<ul class="site group">
-				<li><a href="index.php" <?php if($pageOn == ('index.php')) echo "class='current'"; ?>>Home</a></li>
-				<li><a href="about.php" <?php if($pageOn == ('about.php')) echo "class='current'"; ?>>About</a></li>
-				<li><a href="portfolio.php" <?php if($pageOn == ('portfolio.php')) echo "class='current'"; ?>>Portfolio</a></li>
+				<li><a href="index.php" <?php if($section == ('index')) echo "class='current'"; ?>>Home</a></li>
+				<li><a href="about.php" <?php if($section == ('about')) echo "class='current'"; ?>>About</a></li>
+				<li><a href="portfolio.php" <?php if($section == ('portfolio')) echo "class='current'"; ?>>Portfolio</a></li>
 			</ul>
 
 			<ul class="social group">
