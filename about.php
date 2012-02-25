@@ -56,13 +56,14 @@ include 'header.php'; ?>
 												
 							<ul class="elements1">
 								<li>Web Design</li>
-									<li>Front-end Development</li>                 
+								<li>Front-end Development</li>                 
 							</ul>
 						
 							<ul class="elements2">
-								<li>Something</li>
-									<li>Another Thing</li>
-									<li>and more stuff</li>
+								<li>HTML/HTML5</li>
+								<li>CSS/CSS3</li>
+								<li>JavaScript/jQuery</li>
+								<li>Python</li>
 							</ul>
 						
 					<ul class="elements3">

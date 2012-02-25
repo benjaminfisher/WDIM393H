@@ -6,7 +6,7 @@
 
 			<section class="progress">
 				<p class="title">Site Progress:</p>
-				<progress max="100" value="50">50%</progress>
+				<progress max="100" value="70">70%</progress>
 			</section>
 
 			<nav class="secondary">
