@@ -28,8 +28,8 @@ include 'header.php'; ?>
 					</ul>
 				
 					<ul class="elements2">
-						<li>HTML & CSS</li>
-							<li>HTML5 & CSS3</li>
+						<li>HTML &amp; CSS</li>
+							<li>HTML5 &amp; CSS3</li>
 							<li>HTML Emails</li>
 					</ul>
 				
