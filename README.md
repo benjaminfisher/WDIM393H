@@ -7,7 +7,7 @@
       * the new Interview pages are in the about section. Add styling to about.css
     * Added a randomized quote to the 'Did You Know' section of the sidebar
       * Quotes are driven from the content array in the about_gen.js script.
-    * Moved the deployment server from my personal hosting to phpfog.com
+    * Moved the deployment server from my personal hosting to Orchestra (see project web address).
       
 ----------
 
