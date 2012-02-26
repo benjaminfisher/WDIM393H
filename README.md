@@ -4,10 +4,11 @@
 
   * Benjamin
     * Finished converting the html over to php files with css generated based on section
-      * the new Interview pages are in the about section. Add styling to about.css
+      * the new Interview pages are in the about section. Add styling for these pages to about.css
     * Added a randomized quote to the 'Did You Know' section of the sidebar
       * Quotes are driven from the content array in the about_gen.js script.
     * Moved the deployment server from my personal hosting to Orchestra (see project web address).
+    * Pushed the videos for this weeks assignment to the repo. They are live on the site.
       
 ----------
 
