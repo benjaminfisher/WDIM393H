@@ -1,9 +1,27 @@
 # WDIM393H - Group Project Repo
 
+## Week 7
+
+  * Benjamin
+    * Finished converting the html over to php files with css generated based on section
+      * the new Interview pages are in the about section. Add styling to about.css
+    * Added a randomized quote to the 'Did You Know' section of the sidebar
+      * Quotes are driven from the content array in the about_gen.js script.
+    * Moved the deployment server from my personal hosting to phpfog.com
+      
+----------
+
 ## Week 6
 
   * Nate
     * Added tags for portfolio projects
+    
+  * Benjamin
+    * Added Modernizr with feature testing for:
+      * Gradients, rounded corners, and drop shadows using PIE
+      * HTML5 details element using jquery.details plugin
+    
+----------
 
 ## Week 4 + 5 Homework - Style (CSS3)
 
