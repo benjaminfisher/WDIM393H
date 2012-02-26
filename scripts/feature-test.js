@@ -5,7 +5,7 @@ $(function(){
 		},{
 			test: Modernizr.details,
 			nope: ['css/details.css', 'scripts/jquery.details.min.js'],
-			complete: function() {$('details').details()}
+			callback: function() {$('details').details()}
 		}
 	]);
 })

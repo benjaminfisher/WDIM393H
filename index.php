@@ -107,7 +107,7 @@ include 'header.php'; ?>
 
 			<section class="did-you-know group">
 				<h3>Did You Know?</h3>
-				<p>Charlie has an uncle named OJ. Enough said.</p>
+				<p id="about"></p>
 			</section>
 		</aside>
 	</section>

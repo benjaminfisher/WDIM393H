@@ -8,8 +8,10 @@
 	<link rel="stylesheet" href="css/<?php echo $section ?>.css">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="scripts/about_gen.js"></script>
 	<script src="scripts/modernizr.js"></script>
 	<script src="scripts/feature-test.js"></script>
+	
 
 </head>
 <body id="index">
