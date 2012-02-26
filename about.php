@@ -67,8 +67,14 @@ include 'header.php'; ?>
 							</ul>
 						
 					<ul class="elements3">
-						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
-						<li><a href="interview_benjamin.php"><div class="box">&nbsp;</div>Interview</a></li>
+						<li>
+							<a href="http://benjaminjfisher.com" target="_blank">
+							<div class="box">&nbsp;</div>Portfolio Site</a>
+						</li>
+						<li>
+							<a href="interview_benjamin.php">
+							<div class="box">&nbsp;</div>Interview</a>
+						</li>
 					</ul>
 						</section>
 			</article>
