@@ -483,6 +483,7 @@ and (min-width : 768px) {
 	aside { display: block; }
 	
 	aside.sidebar {
+	  clear: both;
 	  float: left;
 	  width: 130px;
 	}
