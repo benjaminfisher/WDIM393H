@@ -528,6 +528,7 @@ and (min-width : 768px) {
 		top:3px;
 	}
 	aside.sidebar section.news article summary{
+		cursor: pointer;
 		margin-top:0.5em;
 		padding-left:1em;
 		position:relative;

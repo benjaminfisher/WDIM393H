@@ -55,18 +55,6 @@ include 'header.php'; ?>
 			</section>
 		</article>
 
-		<article id="media">
-			<h2>We are pirates</h2>
-
-			<video src="assets/monkey.mp4" controls height="580" width="770">
-				<p>
-					It seems your browser is old and outdated.
-					Sadly you cannot view this fabulous video.
-				</p>
-			</video>
-
-			<p>Also, monkeys.</p>
-		</article>
 	</section>
 
 <?php include 'footer.php' ?>

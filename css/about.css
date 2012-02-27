@@ -1,3 +1,8 @@
+.about section#content {
+	margin-top: -46px;
+	min-height: 375px;
+}
+
 section#content h1 {
 	color: #000;
 	font: 20px 'Arvo', serif;
@@ -93,28 +98,11 @@ blockquote{
 	margin: 0 20px 10px 0;
 }
 
-#april{
+.about section#content article {
 	float: left;
 	clear: both;
+	margin-bottom: 1em;
 	width: 750px;
-}
-
-#benjamin{
-	float: left;
-	clear: both;
-	width: 750px;
-}
-
-#charlie{
-	float: left;
-	clear: both;
-	width: 750px;
-}
-
-#nate{
-	float: left;
-	width: 750px;
-		
 }
 
 #content li a:hover{
