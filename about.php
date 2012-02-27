@@ -3,7 +3,6 @@ $section = 'about';
 include 'header.php'; ?>
 
 	<!-- page content -->
-	<section id="main" class="group">
 		<section id="content" class="group">
 			<h1>The Crew</h1>
 
@@ -116,48 +115,47 @@ include 'header.php'; ?>
 			</article>
 <!-- end #charlie -->        
 
-<article id="nate">
-<figure>
-	<img src="assets/about/nate.jpg" alt="Nate" width="200" height="200" />
-	<figcaption>Into The Abstract</figcaption>
-</figure>
-
-<h2>Nate Goldman</h2>	
-<p>Nate lives for the challenge of a good problem. Git is his religion and the terminal is his temple. In his spare time he wonders what it would be like to have spare time.</p>
-
-<blockquote>Find me a good burrito and I'll give you the world.</blockquote>
-
-<section class="tags">
-	<ul class="elements1">
-	<li>User Interface Design</li>
-	<li>Front-end Development</li> 
-	<li>Back-end Development</li>
-	</ul>
-
-	<ul class="elements1">
-		<li>Object-oriented JavaScript</li>
-		<li>Hardcore Server-side Coding</li>
-	</ul>
-
-	<ul class="elements2">
-		<li>HTML5</li>
-		<li>CSS3</li>
-		<li>Ruby</li>
-		<li>Sinatra</li>
-		<li>Rails</li>
-		<li>Node.js</li>
-	</ul>
-
+			<article id="nate">
+			<figure>
+				<img src="assets/about/nate.jpg" alt="Nate" width="200" height="200" />
+				<figcaption>Into The Abstract</figcaption>
+			</figure>
+			
+			<h2>Nate Goldman</h2>	
+			<p>Nate lives for the challenge of a good problem. Git is his religion and the terminal is his temple. In his spare time he wonders what it would be like to have spare time.</p>
+			
+			<blockquote>Find me a good burrito and I'll give you the world.</blockquote>
+			
+				<section class="tags">
+					<ul class="elements1">
+					<li>User Interface Design</li>
+					<li>Front-end Development</li> 
+					<li>Back-end Development</li>
+					</ul>
+				
+					<ul class="elements1">
+						<li>Object-oriented JavaScript</li>
+						<li>Hardcore Server-side Coding</li>
+					</ul>
+				
+					<ul class="elements2">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Ruby</li>
+						<li>Sinatra</li>
+						<li>Rails</li>
+						<li>Node.js</li>
+					</ul>
+				
 					<ul class="elements3">
 						<li><a href="portfolio.php"><div class="box">&nbsp;</div>Portfolio Site</a></li>
 						<li><a href="interview_nate.php"><div class="box">&nbsp;</div>Interview</a></li>
 					</ul>
-</section>
-
-			</article>
-		</section>
+				</section>
+			
+						</article>
+	</section>
 <!-- end #nate -->
 
-	</section>
 
 <?php include 'footer.php'; ?>

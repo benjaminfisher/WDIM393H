@@ -1,17 +1,17 @@
 /* index articles */
 
-#index section#content article {
+.index section#content article {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	border-top: 1px solid rgba(255,255,255,.5);
 	padding: 40px 0;
 }
-	#index section#content article:first-child {
+	.index section#content article:first-child {
 		border-top: none;
 		padding-top: 0;
 	}
-	#index section#content article:last-child { border-bottom: none }
+	.index section#content article:last-child { border-bottom: none }
 
-#index section#content article h2 {
+.index section#content article h2 {
 	font: normal 20px/1 'Arvo', serif;
 	padding-bottom: 20px;
 	text-shadow: 0 1px 0 #fff;
@@ -19,7 +19,7 @@
 
 /* featured project */
 
-#index section#content article#featured figure {
+.index section#content article#featured figure {
 	background: rgba(255,255,255,.5);
 	float: left;
 	height: 292px;
@@ -30,7 +30,7 @@
 	-moz-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
 }
-	#index section#content article#featured figure:hover {
+	.index section#content article#featured figure:hover {
 		background: #fff;
 		border-color: transparent;
 		-webkit-box-shadow: 0 3px 10px rgba(0,0,0,.1);
@@ -40,7 +40,7 @@
 		-moz-transform: scale(1.03,1.03);
 		transform: scale(1.03,1.03);
 	}
-#index section#content article#featured figure img {
+.index section#content article#featured figure img {
 	border: 1px solid rgba(55,55,55,.4);
 	height: 290px;
 	width: 470px;
@@ -51,7 +51,7 @@
 	-moz-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
-	#index section#content article#featured figure:hover img {
+	.index section#content article#featured figure:hover img {
 		border: 1px solid rgba(200,200,200,.5);
 		-webkit-opacity: 1;
 		-moz-opacity: 1;
@@ -60,36 +60,36 @@
 
 /* project info */
 
-#index section#content article#featured section.info {
+.index section#content article#featured section.info {
 	float: right;
 	width: 240px;
 }
-#index section#content article#featured section.info h3.title {
+.index section#content article#featured section.info h3.title {
 	font-size: 20px;
 	padding-bottom: 15px;
 }
-	#index section#content article#featured section.info h3.title a {
+	.index section#content article#featured section.info h3.title a {
 		color: #bd0505;
 		text-decoration: none;
 		-webkit-transition: all .3s ease-in-out;
 		-moz-transition: all .3s ease-in-out;
 		transition: all .3s ease-in-out;
 	}
-	#index section#content article#featured section.info h3.title a:hover {
+	.index section#content article#featured section.info h3.title a:hover {
 		color: #fd1515;
 	}
-#index section#content article#featured section.info p.description {
+.index section#content article#featured section.info p.description {
 	color: #666;
 	font-size: 13px;
 	line-height: 21px;
 	padding-bottom: 20px;
 }
-#index section#content article#featured section.info a.more {
+.index section#content article#featured section.info a.more {
 	color: #bd0505;
 	font: italic 13px/1 'PT Sans', sans-serif;
 	text-decoration: none;
 }
-	#index section#content article#featured section.info a.more:before {
+	.index section#content article#featured section.info a.more:before {
 		background: #bd0505;
 		content: "";
 		padding: 5px 13px;
@@ -97,43 +97,43 @@
 		height: 15px;
 		width: 15px;
 	}
-		#index section#content article#featured section.info a.more:hover {
+		.index section#content article#featured section.info a.more:hover {
 			color: #fd1515;
 		}
-		#index section#content article#featured section.info a.more:hover:before {
+		.index section#content article#featured section.info a.more:hover:before {
 			background: #fd1515;
 		}
 
 /* tout */
 
-#index section#content article#tout p.brag {
+.index section#content article#tout p.brag {
   color: rgba(0,0,0,.65);
   font: normal 25px/33px 'PT Sans', sans-serif;
 	padding-bottom: 2em;
   text-shadow: 0 1px 0 #fff;
 }
-#index section#content article#tout h3 {
+.index section#content article#tout h3 {
 	color: rgba(0,0,0,.5);
 	font: normal 24px 'PT Sans', sans-serif;
 	padding-bottom: 15px;
 }
-#index section#content article#tout section.column         { float: left }
-#index section#content article#tout section.column.left    { width: 60% }
-#index section#content article#tout section.column.right   { width: 40% }
-#index section#content article#tout section.column.right p {
+.index section#content article#tout section.column         { float: left }
+.index section#content article#tout section.column.left    { width: 60% }
+.index section#content article#tout section.column.right   { width: 40% }
+.index section#content article#tout section.column.right p {
 	color: rgba(0,0,0,.5);
 	font: normal 27px/30px 'PT Sans', sans-serif;
 	padding-bottom: 1em;
 	width: 285px;
 }
-#index section#content article#tout ul {
+.index section#content article#tout ul {
 	color: rgba(0,0,0,.75);
 	font: italic 1.3em/1.7em 'PT Sans', sans-serif;
 	list-style: disc;
 	margin: 0 0 1.5em 2.5em;
 	text-shadow: 0 1px 0 #fff;
 }
-#index section#content article#tout ul li span:not(:nth-child(2)) {
+.index section#content article#tout ul li span:not(:nth-child(2)) {
 	font-weight: bold;
 	background: rgba(0,0,0,.1);
 	border-width: 1px;
@@ -146,16 +146,16 @@
 	line-height: 1.3em;
 	padding: 0 .3em;
 }
-#index section#content article#tout ul li span:nth-child(1) {
+.index section#content article#tout ul li span:nth-child(1) {
 	color: rgba(0,130,70,.6);
 }
-#index section#content article#tout ul li span:nth-child(3) {
+.index section#content article#tout ul li span:nth-child(3) {
 	color: rgba(0,100,200,.6);
 }
 
 /* fancy quote button */
 
-#index button#quote {
+.index button#quote {
 background: #ace;
 background: -webkit-linear-gradient(bottom, #777, #aaa);
 background: -moz-linear-gradient(bottom, #777, #aaa);
@@ -190,7 +190,7 @@ box-shadow: 0 1px 0 #666,
 -moz-transition: all .1s linear 0s;
 transition: all .1s linear 0s;
 }
-	#index button#quote:hover {
+	.index button#quote:hover {
 		background: #a00;
 		background: -webkit-linear-gradient(bottom, #800, #c11);
 		background: -moz-linear-gradient(bottom, #800, #c11);
@@ -208,7 +208,7 @@ transition: all .1s linear 0s;
 								0 2px 0 #500,
 								0 3px 2px rgba(0,0,0,.4);
 	}
-	#index button#quote:active {
+	.index button#quote:active {
 		background: #d00;
 		background: -webkit-linear-gradient(bottom, #a00, #e11);
 		background: -moz-linear-gradient(bottom, #a00, #e11);
@@ -221,16 +221,16 @@ transition: all .1s linear 0s;
 	}
 
 /** Fix for browsers that don't support CSS Gradients or rounded corners**/
-.no-roundedcorners #index button#quote,
-.no-cssgradients #index button#quote {
+.no-roundedcorners .index button#quote,
+.no-cssgradients .index button#quote {
 	behavior: url(scripts/PIE.php);
 	-pie-background: linear-gradient(bottom, #777, #aaa);
 }
 
-.no-cssgradients #index button#quote:hover {
+.no-cssgradients .index button#quote:hover {
 	-pie-background: linear-gradient(bottom, #800, #c11);
 }
 
-.no-cssgradients #index button#quote:active {
+.no-cssgradients .index button#quote:active {
 	-pie-background: linear-gradient(bottom, #a00, #e11);
 }

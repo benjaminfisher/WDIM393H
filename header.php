@@ -14,7 +14,7 @@
 	
 
 </head>
-<body id="index">
+<body <?php echo 'class="'.$section .'"'; ?>>
 
 	<!-- global header -->
 

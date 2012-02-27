@@ -230,8 +230,10 @@ header section.tagline{ display: none; }
 /* content */
 
 section#content {
+  border-bottom: 1px solid rgba(0,0,0,.1);
   border-top: 1px solid rgba(255,255,255,.5);
   float: right;
+  margin-top: -51px;
   padding-top: 40px;
   width:100%;
 }
@@ -239,8 +241,10 @@ section#content {
 /* footer */
 
 footer.global {
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(255,255,255,.5);
+  clear:both;
   margin-left: 180px;
+  padding-top: 1em;
 }
 
 footer.global section.group {
