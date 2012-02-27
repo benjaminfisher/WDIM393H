@@ -8,6 +8,8 @@
     * Added a randomized quote to the 'Did You Know' section of the sidebar
       * Quotes are driven from the content array in the about_gen.js script.
     * Moved the deployment server from my personal hosting to Orchestra (see project web address).
+      * This deploy server will automatically sync from the master branch (time frame for update not specified).
+      * Backup server at http://pirate-monkeys.phpfogapp.com. Requires a push to update.
     * Pushed the videos for this weeks assignment to the repo. They are live on the site.
       
 ----------
