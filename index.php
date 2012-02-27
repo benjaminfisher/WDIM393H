@@ -10,7 +10,7 @@ include 'header.php'; ?>
 				<h2>Latest Project</h2>
 
 				<figure>
-					<img src="img/index/screenshot.jpg" alt="screenshot">
+					<img src="assets/screenshot.jpg" alt="screenshot">
 				</figure>
 
 				<section class="info">
