@@ -11,8 +11,8 @@
 /* document */
 
 html {
-  background: url(../img/overlay.png) center top no-repeat,
-              url(../img/bg.png) 0 0 repeat;
+  background: url(images/overlay.png) center top no-repeat,
+              url(images/bg.png) 0 0 repeat;
   background-size: cover, auto;
   font-family: 'PT Sans', sans-serif;
 
@@ -49,7 +49,7 @@ header.global hgroup {
 
 header.global h1 a {
   color: #000;
-  background: url(../img/logo.png) 0 0 no-repeat;
+  background: url(images/logo.png) 0 0 no-repeat;
   display: block;
   font: normal 24px/1 'Arvo', serif;
   padding-top: 114px;
@@ -77,7 +77,7 @@ header.global h2 {
     header.global h2 span.active        { color: #bd0505 }
     header.global h2:active span.active { color: #575757 }
     header.global h2 span.switch {
-      background: url(../img/switch.png) center 0 no-repeat;
+      background: url(images/switch.png) center 0 no-repeat;
       height: 16px;
       margin: 0 auto;
       width: 52px;
@@ -193,7 +193,7 @@ header.global nav.primary ul.social {
 }
 
 header.global nav.primary ul.social a {
-  background: transparent url(../img/social_icons.png) 0 0 no-repeat;
+  background: transparent url(images/social_icons.png) 0 0 no-repeat;
   display: block;
   float: right;
   height: 41px;
