@@ -8,7 +8,7 @@ include 'header.php';
 		<section id="content" class="group">
 			<h1>Interview - Benjamin Fisher</h1>
 
-			<video poster="img/poster_benjamin.png" width="480" height="270" controls="controls">
+			<video poster="assets/interviews/poster_benjamin.png" width="480" height="270" controls="controls">
 				<source src="assets/interviews/ben_video.mp4" type="video/mp4" />
 				<source src="assets/interviews/ben_video.ogg" type="video/ogg" />
 				<p>Your browser does not support the video tag.</p>
