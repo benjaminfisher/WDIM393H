@@ -8,7 +8,7 @@ include 'header.php';
 		<section id="content" class="group">
 			<h1>Interview - Nate Goldman</h1>
 
-			<video width="480" height="270" controls="controls">
+			<video poster="img/poster_nate.png" width="480" height="270" controls="controls" preload="auto">
 				<source src="assets/interviews/nate_video.mp4" type="video/mp4" />
 				<source src="assets/interviews/nate_video.ogg" type="video/ogg" />
 				<p>Your browser does not support the video tag.</p>

@@ -99,9 +99,10 @@ include 'header.php'; ?>
 													</ul>
 												
 													<ul class="elements2">
-														<li>Something</li>
-															<li>Another Thing</li>
-															<li>and more stuff</li>
+														<li>HTML/HTML5</li>
+															<li>CSS/CSS3</li>
+															<li>Drupal</li>
+															<li>jQuery</li>
 													</ul>
 												
 					<ul class="elements3">

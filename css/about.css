@@ -128,3 +128,21 @@ a{
 	text-decoration: none;
 	color: #bd0304;
 }
+/* Video Interviews */
+video {
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+    border: 1px solid rgba(55, 55, 55, 0.4);
+    height: 265px;
+    width: 470px;
+    padding:10px;
+    background:white;
+    margin-bottom:30px;
+}
+video:hover {
+	width:700px;
+	height:400px;
+	background:black;
+}
+
