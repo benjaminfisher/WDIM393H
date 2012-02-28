@@ -16,11 +16,11 @@ _see comments in global.css and index.css_
 
 ## Progress Polyfill ##
 Used modernizr.load method to target browsers that
-do not support the <progress> tag and provide partial support.
+do not support the `<progress>` tag and provide partial support.
 _see feature-test.js_
 
 ## Details Polyfill ##
 Used modernizr.load method to target browsers that
-do not support the <summery> tag and provide a jQuery based solution.
+do not support the `<summery>` tag and provide a jQuery based solution.
 **Issues:** I took a couple hours figuring out how to do the complete function on after multiple file loads.
 _see feature-test.js_

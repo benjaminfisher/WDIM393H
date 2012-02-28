@@ -1,5 +1,5 @@
 <?php 
-$section = 'about';
+$section = 'interview';
 include 'header.php'; 
 ?>
 	<!-- page content -->

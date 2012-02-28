@@ -11,6 +11,7 @@
 	<script src="scripts/about_gen.js"></script>
 	<script src="scripts/modernizr.js"></script>
 	<script src="scripts/feature-test.js"></script>
+	<script src="scripts/html5video.js"></script>
 	
 
 </head>
