@@ -11,6 +11,7 @@ include 'header.php';
 			<video poster="assets/interviews/poster_april.png" width="480" height="270" controls="controls">
 				<source src="assets/interviews/april_video.mp4" type="video/mp4" />
 				<source src="assets/interviews/april_video.ogg" type="video/ogg" />
+				<source src="assets/interviews/april_video.webm" type="video/webm"></source>
 				<p>Your browser does not support the video tag.</p>
 			</video>
 			
