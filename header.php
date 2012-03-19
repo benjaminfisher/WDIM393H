@@ -12,7 +12,9 @@
 	<script src="scripts/modernizr.js"></script>
 	<script src="scripts/feature-test.js"></script>
 	<script src="scripts/html5video.js"></script>
-	
+	<?php if($section='game'):?>
+		<script src="scripts/game.min.js"></script>
+	<?php endif; ?>
 
 </head>
 <body <?php echo 'class="'.$section .'"'; ?>>
