@@ -17,7 +17,7 @@
 	<?php endif; ?>
 
 </head>
-<body <?php echo 'class="'.$section .'"'; ?>>
+<body <?php echo 'class="'.$section.'"'; ?>>
 
 	<!-- global header -->
 
@@ -36,6 +36,7 @@
 				<li><a href="index.php" <?php if($section == ('index')) echo "class='current'"; ?>>Home</a></li>
 				<li><a href="about.php" <?php if($section == ('about')) echo "class='current'"; ?>>About</a></li>
 				<li><a href="portfolio.php" <?php if($section == ('portfolio')) echo "class='current'"; ?>>Portfolio</a></li>
+				<li><a href="pomc.php" <?php if($section == ('game')) echo "class='current'"; ?>>Game</a></li>
 			</ul>
 
 			<ul class="social group">
